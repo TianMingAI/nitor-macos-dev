@@ -1,0 +1,13 @@
+{
+  "name": "qiaomu-macos-dev",
+  "version": "1.0.0",
+  "owner": "向阳乔木",
+  "updated_at": "2026-11-04",
+  "status": "active",
+  "maturity_tier": "governed",
+  "context_budget_tier": "production",
+  "license": "MIT",
+  "repository": "joeseesun/qiaomu-macos-dev",
+  "release_gates": ["package", "trigger", "unit_tests", "generated_app_build", "snapshot_review", "secret_scan", "clean_install", "pr_release"],
+  "review_cadence": "after every new macOS app shipped with it"
+}

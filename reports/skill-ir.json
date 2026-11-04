@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.0.0-qiaomu-lite",
+  "generated_at": "2026-11-04",
+  "package": {
+    "name": "qiaomu-macos-dev",
+    "version": "1.0.0",
+    "owner": "向阳乔木",
+    "maturity_tier": "governed",
+    "lifecycle_stage": null,
+    "upstream_inspiration": null,
+    "upstream_sync": {}
+  },
+  "intent": {
+    "description": "One-sentence, one-shot development of polished native macOS apps (SwiftUI + AppKit, SwiftPM, no Xcode project): menu bar apps with a hotkey panel or normal Dock/window apps, scaffolded with an Icon Composer icon from Lucide, a settings window with About (version, update check, feedback, follow/tip QR), Sparkle auto-update, Vercel-style UI verified by offscreen snapshots, Developer ID signing, notarization, a designed DMG, a GitHub repo (private by default, ask before public) with an illustrated product-page README, PR flow and GitHub Releases with an appcast. Default skill for any macOS app work by 乔木: \"做一个 mac 软件\", \"开发 macOS app\", \"菜单栏工具\", \"做个 Mac 小工具\", \"加自动更新\", \"做设置页/关于页\", \"设计 app 图标\", \"公证/打包 DMG\", \"发布 mac app 到 GitHub\", plus debugging focus, hotkey, TCC permission, IME and Sparkle issues in such apps.\nExcludes: iOS/iPadOS/watchOS apps, Electron/Tauri/web apps, browser extensions and native-messaging helpers (use qiaomu-dev-skill), Obsidian plugins, .pkg installers for helpers, and generic Swift questions with no app to build.",
+    "job_to_be_done": "One-sentence, one-shot development of polished native macOS apps (SwiftUI + AppKit, SwiftPM, no Xcode project): menu bar apps with a hotkey panel or normal Dock/window apps, scaffolded with an Icon Composer icon from Lucide, a settings window with About (version, update check, feedback, follow/tip QR), Sparkle auto-update, Vercel-style UI verified by offscreen snapshots, Developer ID signing, notarization, a designed DMG, a GitHub repo (private by default, ask before public) with an illustrated product-page README, PR flow and GitHub Releases with an appcast. Default skill for any macOS app work by 乔木: \"做一个 mac 软件\", \"开发 macOS app\", \"菜单栏工具\", \"做个 Mac 小工具\", \"加自动更新\", \"做设置页/关于页\", \"设计 app 图标\", \"公证/打包 DMG\", \"发布 mac app 到 GitHub\", plus debugging focus, hotkey, TCC permission, IME and Sparkle issues in such apps.\nExcludes: iOS/iPadOS/watchOS apps, Electron/Tauri/web apps, browser extensions and native-messaging helpers (use qiaomu-dev-skill), Obsidian plugins, .pkg installers for helpers, and generic Swift questions with no app to build.",
+    "target_users": [
+      "Qiaomu operator"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "exclusions": [],
+    "qiaomu_defaults": {}
+  },
+  "triggers": {
+    "should_trigger": [
+      "做一个 Mac 菜单栏小工具，按快捷键弹出输入框",
+      "开发一个 macOS app 管理提示词，要好看还要自动更新",
+      "一句话开发一个 mac 软件",
+      "给我的 Mac app 加上设置页和关于页",
+      "帮这个 macOS 应用设计一个图标",
+      "把 Mac app 打包成公证过的 DMG 发布",
+      "我的菜单栏 app 里为什么 ⌘V 不能粘贴",
+      "build a macOS menu bar app with Sparkle auto update",
+      "notarize my mac app and publish the DMG to GitHub",
+      "Mac 软件每次重装都要重新给权限，帮我修"
+    ],
+    "should_not_trigger": [
+      "做一个 iOS app 记账",
+      "用 Electron 开发一个桌面应用",
+      "开发一个 Chrome 插件",
+      "写一个 Obsidian 插件，加设置页",
+      "帮我清理 Mac 磁盘空间",
+      "推荐几个好用的 Mac 软件"
+    ],
+    "near_neighbor": [
+      "解释一下 SwiftUI 的 State 是什么",
+      "给这个网页设计一个图标",
+      "给浏览器扩展做一个 macOS pkg 安装包和 native messaging helper",
+      "写一篇介绍 macOS 新功能的文章"
+    ]
+  },
+  "workflow": {
+    "router_rules": [],
+    "compact_workflow": [],
+    "gate_ladder": [],
+    "output_contract": []
+  },
+  "resources": {
+    "references": [
+      "references/app-architecture.md",
+      "references/auto-update.md",
+      "references/details-checklist.md",
+      "references/github.md",
+      "references/icon.md",
+      "references/one-shot-workflow.md",
+      "references/permissions.md",
+      "references/pitfalls.md",
+      "references/project-template.md",
+      "references/release.md",
+      "references/settings-about.md",
+      "references/ui-polish.md"
+    ],
+    "scripts": [
+      "scripts/new_app.py"
+    ],
+    "evals": [
+      "evals/trigger_cases.json"
+    ],
+    "reports": [
+      "reports/creation-handoff.md",
+      "reports/prior-art-candidates.json",
+      "reports/prior-art-research.md",
+      "reports/skill-ir.json",
+      "reports/trigger-eval.json"
+    ]
+  },
+  "portability": {
+    "canonical_format": null,
+    "adapter_targets": [
+      "openai",
+      "claude",
+      "generic",
+      "agent-skills-compatible"
+    ],
+    "activation": {},
+    "execution": {},
+    "trust": {
+      "remote_inline_execution": "forbid"
+    },
+    "permissions": {
+      "file_write": "the new or named app project, plus this skill when recording lessons",
+      "network": "one Lucide SVG from jsdelivr, SwiftPM dependencies, Apple notarization, GitHub via gh when publishing is requested",
+      "secrets": "uses keychain items (Developer ID identity, notary profile, Sparkle ed25519) by reference only"
+    },
+    "degradation": {}
+  },
+  "gates": {},
+  "evidence_boundary": {
+    "generated_reports_are_evidence": true,
+    "planned_work_is_evidence": false,
+    "missing_external_or_human_evidence_label": "missing evidence",
+    "public_claim_policy": "claim only what local validation, install proof, human review, or provider-backed evidence actually supports"
+  }
+}

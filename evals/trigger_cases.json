@@ -1,0 +1,37 @@
+{
+  "recommended_threshold": 0.5,
+  "description_required_concepts": ["mac", "app", "build_action", "ship_feature"],
+  "positive_concepts": {
+    "mac": ["macos", "mac", "菜单栏", "menu bar", "menubar", "swiftui", "appkit", "苹果电脑"],
+    "app": ["app", "apps", "应用", "软件", "小工具", "工具", "客户端"],
+    "build_action": ["build", "develop", "开发", "做一个", "做个", "写一个", "加", "加上", "设计", "打包", "发布", "修", "debug", "调试", "为什么", "scaffold", "生成"],
+    "ship_feature": ["自动更新", "auto update", "sparkle", "设置页", "设置", "关于", "about", "图标", "icon", "dmg", "公证", "notarize", "notarization", "快捷键", "hotkey", "权限", "tcc", "github", "粘贴", "签名", "安装包", "一句话"]
+  },
+  "negative_patterns": ["ios", "iphone", "ipad", "watchos", "electron", "tauri", "浏览器扩展", "chrome 插件", "chrome extension", "obsidian 插件", "网页", "小程序", "安卓", "android", "pkg 安装包", "native messaging", "推荐几个", "有什么好用的"],
+  "should_trigger": [
+    {"text": "做一个 Mac 菜单栏小工具，按快捷键弹出输入框", "family": "cn_new_menubar"},
+    {"text": "开发一个 macOS app 管理提示词，要好看还要自动更新", "family": "cn_new_window"},
+    {"text": "一句话开发一个 mac 软件", "family": "cn_one_shot"},
+    {"text": "给我的 Mac app 加上设置页和关于页", "family": "cn_settings_about"},
+    {"text": "帮这个 macOS 应用设计一个图标", "family": "cn_icon"},
+    {"text": "把 Mac app 打包成公证过的 DMG 发布", "family": "cn_release"},
+    {"text": "我的菜单栏 app 里为什么 ⌘V 不能粘贴", "family": "cn_debug_focus"},
+    {"text": "build a macOS menu bar app with Sparkle auto update", "family": "en_new"},
+    {"text": "notarize my mac app and publish the DMG to GitHub", "family": "en_release"},
+    {"text": "Mac 软件每次重装都要重新给权限，帮我修", "family": "cn_debug_tcc"}
+  ],
+  "should_not_trigger": [
+    {"text": "做一个 iOS app 记账", "family": "ios"},
+    {"text": "用 Electron 开发一个桌面应用", "family": "electron"},
+    {"text": "开发一个 Chrome 插件", "family": "browser_extension"},
+    {"text": "写一个 Obsidian 插件，加设置页", "family": "obsidian_plugin"},
+    {"text": "帮我清理 Mac 磁盘空间", "family": "mac_usage"},
+    {"text": "推荐几个好用的 Mac 软件", "family": "recommendation"}
+  ],
+  "near_neighbor": [
+    {"text": "解释一下 SwiftUI 的 State 是什么", "family": "swift_question"},
+    {"text": "给这个网页设计一个图标", "family": "web_icon"},
+    {"text": "给浏览器扩展做一个 macOS pkg 安装包和 native messaging helper", "family": "dev_skill_pkg"},
+    {"text": "写一篇介绍 macOS 新功能的文章", "family": "writing"}
+  ]
+}

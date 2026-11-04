@@ -1,0 +1,303 @@
+{
+  "ok": true,
+  "threshold": 0.5,
+  "description_concepts": [
+    "app",
+    "build_action",
+    "mac",
+    "ship_feature"
+  ],
+  "missing_description_concepts": [],
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "false_positive": 0,
+    "false_negative": 0,
+    "pass_rate": 1.0
+  },
+  "failures": [],
+  "results": {
+    "should_trigger": [
+      {
+        "prompt": "做一个 Mac 菜单栏小工具，按快捷键弹出输入框",
+        "family": "cn_new_menubar",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "开发一个 macOS app 管理提示词，要好看还要自动更新",
+        "family": "cn_new_window",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "一句话开发一个 mac 软件",
+        "family": "cn_one_shot",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "给我的 Mac app 加上设置页和关于页",
+        "family": "cn_settings_about",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "帮这个 macOS 应用设计一个图标",
+        "family": "cn_icon",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "把 Mac app 打包成公证过的 DMG 发布",
+        "family": "cn_release",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "我的菜单栏 app 里为什么 ⌘V 不能粘贴",
+        "family": "cn_debug_focus",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "build a macOS menu bar app with Sparkle auto update",
+        "family": "en_new",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "notarize my mac app and publish the DMG to GitHub",
+        "family": "en_release",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.75,
+        "matched_concepts": [
+          "app",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "Mac 软件每次重装都要重新给权限，帮我修",
+        "family": "cn_debug_tcc",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "app",
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": null
+      }
+    ],
+    "should_not_trigger": [
+      {
+        "prompt": "做一个 iOS app 记账",
+        "family": "ios",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.5,
+        "matched_concepts": [
+          "app",
+          "build_action"
+        ],
+        "negative_pattern": "ios"
+      },
+      {
+        "prompt": "用 Electron 开发一个桌面应用",
+        "family": "electron",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.5,
+        "matched_concepts": [
+          "app",
+          "build_action"
+        ],
+        "negative_pattern": "electron"
+      },
+      {
+        "prompt": "开发一个 Chrome 插件",
+        "family": "browser_extension",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.25,
+        "matched_concepts": [
+          "build_action"
+        ],
+        "negative_pattern": "chrome 插件"
+      },
+      {
+        "prompt": "写一个 Obsidian 插件，加设置页",
+        "family": "obsidian_plugin",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.5,
+        "matched_concepts": [
+          "build_action",
+          "ship_feature"
+        ],
+        "negative_pattern": "obsidian 插件"
+      },
+      {
+        "prompt": "帮我清理 Mac 磁盘空间",
+        "family": "mac_usage",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.25,
+        "matched_concepts": [
+          "mac"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "推荐几个好用的 Mac 软件",
+        "family": "recommendation",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.5,
+        "matched_concepts": [
+          "app",
+          "mac"
+        ],
+        "negative_pattern": "推荐几个"
+      }
+    ],
+    "near_neighbor": [
+      {
+        "prompt": "解释一下 SwiftUI 的 State 是什么",
+        "family": "swift_question",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.25,
+        "matched_concepts": [
+          "mac"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "给这个网页设计一个图标",
+        "family": "web_icon",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.5,
+        "matched_concepts": [
+          "build_action",
+          "ship_feature"
+        ],
+        "negative_pattern": "网页"
+      },
+      {
+        "prompt": "给浏览器扩展做一个 macOS pkg 安装包和 native messaging helper",
+        "family": "dev_skill_pkg",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.75,
+        "matched_concepts": [
+          "build_action",
+          "mac",
+          "ship_feature"
+        ],
+        "negative_pattern": "浏览器扩展"
+      },
+      {
+        "prompt": "写一篇介绍 macOS 新功能的文章",
+        "family": "writing",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.25,
+        "matched_concepts": [
+          "mac"
+        ],
+        "negative_pattern": null
+      }
+    ]
+  }
+}

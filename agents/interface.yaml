@@ -1,0 +1,13 @@
+interface:
+  display_name: "乔木 macOS 开发"
+  short_description: "一句话开发精致的 Mac App：图标、设置与关于、自动更新、公证 DMG、GitHub 发布"
+  default_prompt: "Use $qiaomu-macos-dev to build or improve this macOS app. For a new app run scripts/new_app.py (menubar or window), then follow the one-shot phases with their gates: selftest, offscreen snapshots viewed in light and dark, settings + About, icon, permissions, install-local, GitHub repo private by default (ask before public), release with notarization, DMG and Sparkle appcast. Check references/pitfalls.md before debugging. Never write secrets into the repo; use feature branches and PRs; report what was and was not verified."
+compatibility:
+  adapter_targets: [openai, claude, generic, agent-skills-compatible]
+  platforms: [macos]
+  trust:
+    remote_inline_execution: forbid
+  permissions:
+    file_write: "the new or named app project, plus this skill when recording lessons"
+    network: "one Lucide SVG from jsdelivr, SwiftPM dependencies, Apple notarization, GitHub via gh when publishing is requested"
+    secrets: "uses keychain items (Developer ID identity, notary profile, Sparkle ed25519) by reference only"

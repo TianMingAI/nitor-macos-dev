@@ -1,0 +1,3397 @@
+{
+  "ok": true,
+  "complete": true,
+  "researched_at": "2026-11-04",
+  "queries": [
+    "macos app development swiftui",
+    "notarize dmg sparkle",
+    "menu bar app",
+    "macos release signing"
+  ],
+  "metric_semantics": {
+    "skills_sh_installs": "ecosystem install telemetry; not ratings or correctness",
+    "skillsmp_repo_stars": "GitHub repository stars; not installs, ratings, or skill-specific quality",
+    "cross_catalog_score": "not calculated; metrics remain separate"
+  },
+  "query_runs": [
+    {
+      "query": "macos app development swiftui",
+      "skills_sh": "ok",
+      "skillsmp": "ok",
+      "skills_sh_candidates": 24,
+      "skillsmp_candidates": 10
+    },
+    {
+      "query": "notarize dmg sparkle",
+      "skills_sh": "ok",
+      "skillsmp": "ok",
+      "skills_sh_candidates": 1,
+      "skillsmp_candidates": 10
+    },
+    {
+      "query": "menu bar app",
+      "skills_sh": "ok",
+      "skillsmp": "ok",
+      "skills_sh_candidates": 80,
+      "skillsmp_candidates": 10
+    },
+    {
+      "query": "macos release signing",
+      "skills_sh": "ok",
+      "skillsmp": "ok",
+      "skills_sh_candidates": 28,
+      "skillsmp_candidates": 10
+    }
+  ],
+  "candidate_family_count": 150,
+  "candidates": [
+    {
+      "family_key": "larksuite/cli:lark-apps",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "larksuite/cli",
+        "skill_name": "lark-apps",
+        "family_key": "larksuite/cli:lark-apps",
+        "skills_sh_installs": 323300,
+        "skills_sh_installs_display": "323.3K",
+        "skills_sh_url": "https://skills.sh/larksuite/cli/lark-apps"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "charlie947/motion-graphics-skills:apple-launch-film",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "charlie947/motion-graphics-skills",
+        "skill_name": "apple-launch-film",
+        "family_key": "charlie947/motion-graphics-skills:apple-launch-film",
+        "skills_sh_installs": 2100,
+        "skills_sh_installs_display": "2.1K",
+        "skills_sh_url": "https://skills.sh/charlie947/motion-graphics-skills/apple-launch-film"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "charleswiltgen/axiom:axiom-macos",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "charleswiltgen/axiom",
+        "skill_name": "axiom-macos",
+        "family_key": "charleswiltgen/axiom:axiom-macos",
+        "skills_sh_installs": 1400,
+        "skills_sh_installs_display": "1.4K",
+        "skills_sh_url": "https://skills.sh/charleswiltgen/axiom/axiom-macos"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "cap-go/capgo-skills:capacitor-ci-cd",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "cap-go/capgo-skills",
+        "skill_name": "capacitor-ci-cd",
+        "family_key": "cap-go/capgo-skills:capacitor-ci-cd",
+        "skills_sh_installs": 986,
+        "skills_sh_installs_display": "986",
+        "skills_sh_url": "https://skills.sh/cap-go/capgo-skills/capacitor-ci-cd"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "dimillian/skills:macos-menubar-tuist-app",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "dimillian/skills",
+        "skill_name": "macos-menubar-tuist-app",
+        "family_key": "dimillian/skills:macos-menubar-tuist-app",
+        "skills_sh_installs": 693,
+        "skills_sh_installs_display": "693",
+        "skills_sh_url": "https://skills.sh/dimillian/skills/macos-menubar-tuist-app"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "daveebbelaar/bama:os-integrations",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "daveebbelaar/bama",
+        "skill_name": "os-integrations",
+        "family_key": "daveebbelaar/bama:os-integrations",
+        "skills_sh_installs": 641,
+        "skills_sh_installs_display": "641",
+        "skills_sh_url": "https://skills.sh/daveebbelaar/bama/os-integrations"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "petekp/agent-skills:macos-app-design",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "petekp/agent-skills",
+        "skill_name": "macos-app-design",
+        "family_key": "petekp/agent-skills:macos-app-design",
+        "skills_sh_installs": 411,
+        "skills_sh_installs_display": "411",
+        "skills_sh_url": "https://skills.sh/petekp/agent-skills/macos-app-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "syncfusion/blazor-ui-components-skills:syncfusion-blazor-menu-bar",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "syncfusion/blazor-ui-components-skills",
+        "skill_name": "syncfusion-blazor-menu-bar",
+        "family_key": "syncfusion/blazor-ui-components-skills:syncfusion-blazor-menu-bar",
+        "skills_sh_installs": 348,
+        "skills_sh_installs_display": "348",
+        "skills_sh_url": "https://skills.sh/syncfusion/blazor-ui-components-skills/syncfusion-blazor-menu-bar"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "travisjneuman/.claude:macos-native",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "travisjneuman/.claude",
+        "skill_name": "macos-native",
+        "family_key": "travisjneuman/.claude:macos-native",
+        "skills_sh_installs": 295,
+        "skills_sh_installs_display": "295",
+        "skills_sh_url": "https://skills.sh/travisjneuman/.claude/macos-native"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "scenario-labs/skills:scenario-godot-performance-export",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "scenario-labs/skills",
+        "skill_name": "scenario-godot-performance-export",
+        "family_key": "scenario-labs/skills:scenario-godot-performance-export",
+        "skills_sh_installs": 263,
+        "skills_sh_installs_display": "263",
+        "skills_sh_url": "https://skills.sh/scenario-labs/skills/scenario-godot-performance-export"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "404kidwiz/claude-supercode-skills:macos-developer",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "404kidwiz/claude-supercode-skills",
+        "skill_name": "macos-developer",
+        "family_key": "404kidwiz/claude-supercode-skills:macos-developer",
+        "skills_sh_installs": 159,
+        "skills_sh_installs_display": "159",
+        "skills_sh_url": "https://skills.sh/404kidwiz/claude-supercode-skills/macos-developer"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "xnydl/codex-dream-skin:codex-dream-skin",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "xnydl/codex-dream-skin",
+        "skill_name": "codex-dream-skin",
+        "family_key": "xnydl/codex-dream-skin:codex-dream-skin",
+        "skills_sh_installs": 133,
+        "skills_sh_installs_display": "133",
+        "skills_sh_url": "https://skills.sh/xnydl/codex-dream-skin/codex-dream-skin"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "uxcel-lab/product-skills:ux-navigation",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "uxcel-lab/product-skills",
+        "skill_name": "ux-navigation",
+        "family_key": "uxcel-lab/product-skills:ux-navigation",
+        "skills_sh_installs": 121,
+        "skills_sh_installs_display": "121",
+        "skills_sh_url": "https://skills.sh/uxcel-lab/product-skills/ux-navigation"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tenequm/skills:swift-macos",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "tenequm/skills",
+        "skill_name": "swift-macos",
+        "family_key": "tenequm/skills:swift-macos",
+        "skills_sh_installs": 113,
+        "skills_sh_installs_display": "113",
+        "skills_sh_url": "https://skills.sh/tenequm/skills/swift-macos"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "yahyabedirhan/shipyard:shipyard",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "yahyabedirhan/shipyard",
+        "skill_name": "shipyard",
+        "family_key": "yahyabedirhan/shipyard:shipyard",
+        "skills_sh_installs": 103,
+        "skills_sh_installs_display": "103",
+        "skills_sh_url": "https://skills.sh/yahyabedirhan/shipyard/shipyard"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "rajavijayach/electrobun-skills:electrobun-native-ui",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "rajavijayach/electrobun-skills",
+        "skill_name": "electrobun-native-ui",
+        "family_key": "rajavijayach/electrobun-skills:electrobun-native-ui",
+        "skills_sh_installs": 92,
+        "skills_sh_installs_display": "92",
+        "skills_sh_url": "https://skills.sh/rajavijayach/electrobun-skills/electrobun-native-ui"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "syncfusion/winforms-ui-components-skills:syncfusion-winforms-main-frame-bar-manager",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "syncfusion/winforms-ui-components-skills",
+        "skill_name": "syncfusion-winforms-main-frame-bar-manager",
+        "family_key": "syncfusion/winforms-ui-components-skills:syncfusion-winforms-main-frame-bar-manager",
+        "skills_sh_installs": 81,
+        "skills_sh_installs_display": "81",
+        "skills_sh_url": "https://skills.sh/syncfusion/winforms-ui-components-skills/syncfusion-winforms-main-frame-bar-manager"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "syncfusion/winforms-ui-components-skills:syncfusion-winforms-popup-menu",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "syncfusion/winforms-ui-components-skills",
+        "skill_name": "syncfusion-winforms-popup-menu",
+        "family_key": "syncfusion/winforms-ui-components-skills:syncfusion-winforms-popup-menu",
+        "skills_sh_installs": 81,
+        "skills_sh_installs_display": "81",
+        "skills_sh_url": "https://skills.sh/syncfusion/winforms-ui-components-skills/syncfusion-winforms-popup-menu"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "syncfusion/winforms-ui-components-skills:syncfusion-winforms-xptoolbar",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "syncfusion/winforms-ui-components-skills",
+        "skill_name": "syncfusion-winforms-xptoolbar",
+        "family_key": "syncfusion/winforms-ui-components-skills:syncfusion-winforms-xptoolbar",
+        "skills_sh_installs": 79,
+        "skills_sh_installs_display": "79",
+        "skills_sh_url": "https://skills.sh/syncfusion/winforms-ui-components-skills/syncfusion-winforms-xptoolbar"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "sjungling/sjungling-claude-plugins:ios-swift-expert",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "sjungling/sjungling-claude-plugins",
+        "skill_name": "ios-swift-expert",
+        "family_key": "sjungling/sjungling-claude-plugins:ios-swift-expert",
+        "skills_sh_installs": 76,
+        "skills_sh_installs_display": "76",
+        "skills_sh_url": "https://skills.sh/sjungling/sjungling-claude-plugins/ios-swift-expert"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "rajavijayach/electrobun-skills:electrobun-distribution",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "rajavijayach/electrobun-skills",
+        "skill_name": "electrobun-distribution",
+        "family_key": "rajavijayach/electrobun-skills:electrobun-distribution",
+        "skills_sh_installs": 74,
+        "skills_sh_installs_display": "74",
+        "skills_sh_url": "https://skills.sh/rajavijayach/electrobun-skills/electrobun-distribution"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:release-openclaw-mac",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "openclaw/openclaw",
+        "skill_name": "release-openclaw-mac",
+        "family_key": "openclaw/openclaw:release-openclaw-mac",
+        "skills_sh_installs": 62,
+        "skills_sh_installs_display": "62",
+        "skills_sh_url": "https://skills.sh/openclaw/openclaw/release-openclaw-mac"
+      },
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "release-openclaw-mac",
+        "author": "openclaw",
+        "description": "Run or recover OpenClaw macOS release signing, notarization, appcast, and asset promotion.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/.agents/skills/release-openclaw-mac",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/agents-skills-release-openclaw-mac",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-07-23T01:48:48+00:00",
+        "source_key": "openclaw/openclaw:.agents/skills/release-openclaw-mac",
+        "family_key": "openclaw/openclaw:release-openclaw-mac",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skills.sh",
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "sylphxai/skills:desktop-os-integration",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "sylphxai/skills",
+        "skill_name": "desktop-os-integration",
+        "family_key": "sylphxai/skills:desktop-os-integration",
+        "skills_sh_installs": 54,
+        "skills_sh_installs_display": "54",
+        "skills_sh_url": "https://skills.sh/sylphxai/skills/desktop-os-integration"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "sylphxai/skills:macos-release-readiness",
+      "queries": [
+        "macos release signing",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "sylphxai/skills",
+        "skill_name": "macos-release-readiness",
+        "family_key": "sylphxai/skills:macos-release-readiness",
+        "skills_sh_installs": 51,
+        "skills_sh_installs_display": "51",
+        "skills_sh_url": "https://skills.sh/sylphxai/skills/macos-release-readiness"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "hu-wentao/flowr:fr-mvvm-contract",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "hu-wentao/flowr",
+        "skill_name": "fr-mvvm-contract",
+        "family_key": "hu-wentao/flowr:fr-mvvm-contract",
+        "skills_sh_installs": 50,
+        "skills_sh_installs_display": "50",
+        "skills_sh_url": "https://skills.sh/hu-wentao/flowr/fr-mvvm-contract"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "ios-agent/iosagent.dev:mapkit",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "ios-agent/iosagent.dev",
+        "skill_name": "mapkit",
+        "family_key": "ios-agent/iosagent.dev:mapkit",
+        "skills_sh_installs": 50,
+        "skills_sh_installs_display": "50",
+        "skills_sh_url": "https://skills.sh/ios-agent/iosagent.dev/mapkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "fusengine/claude-plugins:macos",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "fusengine/claude-plugins",
+        "skill_name": "macos",
+        "family_key": "fusengine/claude-plugins:macos",
+        "skills_sh_installs": 47,
+        "skills_sh_installs_display": "47",
+        "skills_sh_url": "https://skills.sh/fusengine/claude-plugins/macos"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "makgunay/claude-swift-skills:macos-app-structure",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "makgunay/claude-swift-skills",
+        "skill_name": "macos-app-structure",
+        "family_key": "makgunay/claude-swift-skills:macos-app-structure",
+        "skills_sh_installs": 44,
+        "skills_sh_installs_display": "44",
+        "skills_sh_url": "https://skills.sh/makgunay/claude-swift-skills/macos-app-structure"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "aiagentwithdhruv/skills:whisper-voice",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "aiagentwithdhruv/skills",
+        "skill_name": "whisper-voice",
+        "family_key": "aiagentwithdhruv/skills:whisper-voice",
+        "skills_sh_installs": 43,
+        "skills_sh_installs_display": "43",
+        "skills_sh_url": "https://skills.sh/aiagentwithdhruv/skills/whisper-voice"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "glebis/claude-skills:app-release",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "glebis/claude-skills",
+        "skill_name": "app-release",
+        "family_key": "glebis/claude-skills:app-release",
+        "skills_sh_installs": 42,
+        "skills_sh_installs_display": "42",
+        "skills_sh_url": "https://skills.sh/glebis/claude-skills/app-release"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "wilbeibi/wilbeibi-skills:hammerspoon",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "wilbeibi/wilbeibi-skills",
+        "skill_name": "hammerspoon",
+        "family_key": "wilbeibi/wilbeibi-skills:hammerspoon",
+        "skills_sh_installs": 40,
+        "skills_sh_installs_display": "40",
+        "skills_sh_url": "https://skills.sh/wilbeibi/wilbeibi-skills/hammerspoon"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "petekp/claude-code-setup:macos-app-design",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "petekp/claude-code-setup",
+        "skill_name": "macos-app-design",
+        "family_key": "petekp/claude-code-setup:macos-app-design",
+        "skills_sh_installs": 38,
+        "skills_sh_installs_display": "38",
+        "skills_sh_url": "https://skills.sh/petekp/claude-code-setup/macos-app-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:openclaw-mac-release",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "openclaw/openclaw",
+        "skill_name": "openclaw-mac-release",
+        "family_key": "openclaw/openclaw:openclaw-mac-release",
+        "skills_sh_installs": 35,
+        "skills_sh_installs_display": "35",
+        "skills_sh_url": "https://skills.sh/openclaw/openclaw/openclaw-mac-release"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "jpoindexter/ux-flow-skills:flow-navigation",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "jpoindexter/ux-flow-skills",
+        "skill_name": "flow-navigation",
+        "family_key": "jpoindexter/ux-flow-skills:flow-navigation",
+        "skills_sh_installs": 34,
+        "skills_sh_installs_display": "34",
+        "skills_sh_url": "https://skills.sh/jpoindexter/ux-flow-skills/flow-navigation"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "danielraffel/juce-agent-toolkit:juce-build-release",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "danielraffel/juce-agent-toolkit",
+        "skill_name": "juce-build-release",
+        "family_key": "danielraffel/juce-agent-toolkit:juce-build-release",
+        "skills_sh_installs": 30,
+        "skills_sh_installs_display": "30",
+        "skills_sh_url": "https://skills.sh/danielraffel/juce-agent-toolkit/juce-build-release"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "fudesign2008/open-skills:astrill-control",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "fudesign2008/open-skills",
+        "skill_name": "astrill-control",
+        "family_key": "fudesign2008/open-skills:astrill-control",
+        "skills_sh_installs": 30,
+        "skills_sh_installs_display": "30",
+        "skills_sh_url": "https://skills.sh/fudesign2008/open-skills/astrill-control"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "middlesugar7000/premium-saas-web-skill:premium-saas-web",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "middlesugar7000/premium-saas-web-skill",
+        "skill_name": "premium-saas-web",
+        "family_key": "middlesugar7000/premium-saas-web-skill:premium-saas-web",
+        "skills_sh_installs": 29,
+        "skills_sh_installs_display": "29",
+        "skills_sh_url": "https://skills.sh/middlesugar7000/premium-saas-web-skill/premium-saas-web"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "makgunay/claude-swift-skills:appkit-bridge",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "makgunay/claude-swift-skills",
+        "skill_name": "appkit-bridge",
+        "family_key": "makgunay/claude-swift-skills:appkit-bridge",
+        "skills_sh_installs": 27,
+        "skills_sh_installs_display": "27",
+        "skills_sh_url": "https://skills.sh/makgunay/claude-swift-skills/appkit-bridge"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "devexpress/agent-skills:devexpress-winforms-ribbon-and-bars",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "devexpress/agent-skills",
+        "skill_name": "devexpress-winforms-ribbon-and-bars",
+        "family_key": "devexpress/agent-skills:devexpress-winforms-ribbon-and-bars",
+        "skills_sh_installs": 24,
+        "skills_sh_installs_display": "24",
+        "skills_sh_url": "https://skills.sh/devexpress/agent-skills/devexpress-winforms-ribbon-and-bars"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "caidanw/skills:macos-swift-desktop",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "caidanw/skills",
+        "skill_name": "macos-swift-desktop",
+        "family_key": "caidanw/skills:macos-swift-desktop",
+        "skills_sh_installs": 22,
+        "skills_sh_installs_display": "22",
+        "skills_sh_url": "https://skills.sh/caidanw/skills/macos-swift-desktop"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "immamdouhaboammar/motion-graphics-skills:apple-launch-film",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "immamdouhaboammar/motion-graphics-skills",
+        "skill_name": "apple-launch-film",
+        "family_key": "immamdouhaboammar/motion-graphics-skills:apple-launch-film",
+        "skills_sh_installs": 22,
+        "skills_sh_installs_display": "22",
+        "skills_sh_url": "https://skills.sh/immamdouhaboammar/motion-graphics-skills/apple-launch-film"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "serverpod/skills-registry:shadcn_ui-menubar",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "serverpod/skills-registry",
+        "skill_name": "shadcn_ui-menubar",
+        "family_key": "serverpod/skills-registry:shadcn_ui-menubar",
+        "skills_sh_installs": 22,
+        "skills_sh_installs_display": "22",
+        "skills_sh_url": "https://skills.sh/serverpod/skills-registry/shadcn_ui-menubar"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "devexpress/agent-skills:devexpress-blazor-toolbar",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "devexpress/agent-skills",
+        "skill_name": "devexpress-blazor-toolbar",
+        "family_key": "devexpress/agent-skills:devexpress-blazor-toolbar",
+        "skills_sh_installs": 19,
+        "skills_sh_installs_display": "19",
+        "skills_sh_url": "https://skills.sh/devexpress/agent-skills/devexpress-blazor-toolbar"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "devexpress/agent-skills:devexpress-blazor-ribbon",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "devexpress/agent-skills",
+        "skill_name": "devexpress-blazor-ribbon",
+        "family_key": "devexpress/agent-skills:devexpress-blazor-ribbon",
+        "skills_sh_installs": 17,
+        "skills_sh_installs_display": "17",
+        "skills_sh_url": "https://skills.sh/devexpress/agent-skills/devexpress-blazor-ribbon"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "ykswang/apple-hig-skill:apple-hig",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "ykswang/apple-hig-skill",
+        "skill_name": "apple-hig",
+        "family_key": "ykswang/apple-hig-skill:apple-hig",
+        "skills_sh_installs": 17,
+        "skills_sh_installs_display": "17",
+        "skills_sh_url": "https://skills.sh/ykswang/apple-hig-skill/apple-hig"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "sickn33/agentic-awesome-skills:macos-menubar-tuist-app",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "sickn33/agentic-awesome-skills",
+        "skill_name": "macos-menubar-tuist-app",
+        "family_key": "sickn33/agentic-awesome-skills:macos-menubar-tuist-app",
+        "skills_sh_installs": 16,
+        "skills_sh_installs_display": "16",
+        "skills_sh_url": "https://skills.sh/sickn33/agentic-awesome-skills/macos-menubar-tuist-app"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "thedaviddias/front-end-checklist:aria-required-children",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "thedaviddias/front-end-checklist",
+        "skill_name": "aria-required-children",
+        "family_key": "thedaviddias/front-end-checklist:aria-required-children",
+        "skills_sh_installs": 15,
+        "skills_sh_installs_display": "15",
+        "skills_sh_url": "https://skills.sh/thedaviddias/front-end-checklist/aria-required-children"
+      },
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "aria-required-children",
+        "author": "thedaviddias",
+        "description": "Use when applies to custom ARIA widgets using composite roles: tablist, list, listbox, menu, menubar, tree, treegrid, grid, rowgroup, row, radiogroup. Use when reviewing components built with div/span elements that replace native HTML list, select, or nav elements.",
+        "content_language": "en",
+        "github_url": "https://github.com/thedaviddias/Front-End-Checklist/tree/main/skills/aria-required-children",
+        "skillsmp_url": "https://skillsmp.com/creators/thedaviddias/front-end-checklist/skills-aria-required-children",
+        "repo_stars": 74632,
+        "catalog_updated_at": "2026-10-04T21:27:25+00:00",
+        "source_key": "thedaviddias/front-end-checklist:skills/aria-required-children",
+        "family_key": "thedaviddias/front-end-checklist:aria-required-children",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skills.sh",
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "devexpress/agent-skills:devexpress-wpf-ribbon-and-bars",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "devexpress/agent-skills",
+        "skill_name": "devexpress-wpf-ribbon-and-bars",
+        "family_key": "devexpress/agent-skills:devexpress-wpf-ribbon-and-bars",
+        "skills_sh_installs": 15,
+        "skills_sh_installs_display": "15",
+        "skills_sh_url": "https://skills.sh/devexpress/agent-skills/devexpress-wpf-ribbon-and-bars"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "detailobsessed/agent-skills:macos-expert",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "detailobsessed/agent-skills",
+        "skill_name": "macos-expert",
+        "family_key": "detailobsessed/agent-skills:macos-expert",
+        "skills_sh_installs": 14,
+        "skills_sh_installs_display": "14",
+        "skills_sh_url": "https://skills.sh/detailobsessed/agent-skills/macos-expert"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "xopoko/build-swift-apps:macos-swiftui-architect",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "xopoko/build-swift-apps",
+        "skill_name": "macos-swiftui-architect",
+        "family_key": "xopoko/build-swift-apps:macos-swiftui-architect",
+        "skills_sh_installs": 13,
+        "skills_sh_installs_display": "13",
+        "skills_sh_url": "https://skills.sh/xopoko/build-swift-apps/macos-swiftui-architect"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tea-x-random/unity-game-skills:unity-qa-release",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "tea-x-random/unity-game-skills",
+        "skill_name": "unity-qa-release",
+        "family_key": "tea-x-random/unity-game-skills:unity-qa-release",
+        "skills_sh_installs": 12,
+        "skills_sh_installs_display": "12",
+        "skills_sh_url": "https://skills.sh/tea-x-random/unity-game-skills/unity-qa-release"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "amorecomputer/amore-skill:amore-cli",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "amorecomputer/amore-skill",
+        "skill_name": "amore-cli",
+        "family_key": "amorecomputer/amore-skill:amore-cli",
+        "skills_sh_installs": 11,
+        "skills_sh_installs_display": "11",
+        "skills_sh_url": "https://skills.sh/amorecomputer/amore-skill/amore-cli"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "quasarframework/agent-skills:quasar-electron-development",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "quasarframework/agent-skills",
+        "skill_name": "quasar-electron-development",
+        "family_key": "quasarframework/agent-skills:quasar-electron-development",
+        "skills_sh_installs": 11,
+        "skills_sh_installs_display": "11",
+        "skills_sh_url": "https://skills.sh/quasarframework/agent-skills/quasar-electron-development"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "frostist/swift-human-guidelines:swift-human-guidelines",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "frostist/swift-human-guidelines",
+        "skill_name": "swift-human-guidelines",
+        "family_key": "frostist/swift-human-guidelines:swift-human-guidelines",
+        "skills_sh_installs": 10,
+        "skills_sh_installs_display": "10",
+        "skills_sh_url": "https://skills.sh/frostist/swift-human-guidelines/swift-human-guidelines"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "zard-ui/zardui:zard-migration",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "zard-ui/zardui",
+        "skill_name": "zard-migration",
+        "family_key": "zard-ui/zardui:zard-migration",
+        "skills_sh_installs": 10,
+        "skills_sh_installs_display": "10",
+        "skills_sh_url": "https://skills.sh/zard-ui/zardui/zard-migration"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "xtone/ai_development_tools:swiftui-coding-guidelines",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "xtone/ai_development_tools",
+        "skill_name": "swiftui-coding-guidelines",
+        "family_key": "xtone/ai_development_tools:swiftui-coding-guidelines",
+        "skills_sh_installs": 9,
+        "skills_sh_installs_display": "9",
+        "skills_sh_url": "https://skills.sh/xtone/ai_development_tools/swiftui-coding-guidelines"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "gyorkluu/electrobun-skills:electrobun-native-ui",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "gyorkluu/electrobun-skills",
+        "skill_name": "electrobun-native-ui",
+        "family_key": "gyorkluu/electrobun-skills:electrobun-native-ui",
+        "skills_sh_installs": 8,
+        "skills_sh_installs_display": "8",
+        "skills_sh_url": "https://skills.sh/gyorkluu/electrobun-skills/electrobun-native-ui"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nikolakaplin/tauri-react-skills:tauri-release-distribution",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "nikolakaplin/tauri-react-skills",
+        "skill_name": "tauri-release-distribution",
+        "family_key": "nikolakaplin/tauri-react-skills:tauri-release-distribution",
+        "skills_sh_installs": 8,
+        "skills_sh_installs_display": "8",
+        "skills_sh_url": "https://skills.sh/nikolakaplin/tauri-react-skills/tauri-release-distribution"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "rshankras/claude-code-apple-skills:macos-capabilities",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "rshankras/claude-code-apple-skills",
+        "skill_name": "macos-capabilities",
+        "family_key": "rshankras/claude-code-apple-skills:macos-capabilities",
+        "skills_sh_installs": 8,
+        "skills_sh_installs_display": "8",
+        "skills_sh_url": "https://skills.sh/rshankras/claude-code-apple-skills/macos-capabilities"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "aishwaryaashok14/notch-kit:notch-kit",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "aishwaryaashok14/notch-kit",
+        "skill_name": "notch-kit",
+        "family_key": "aishwaryaashok14/notch-kit:notch-kit",
+        "skills_sh_installs": 7,
+        "skills_sh_installs_display": "7",
+        "skills_sh_url": "https://skills.sh/aishwaryaashok14/notch-kit/notch-kit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "khanshaheb34/menubar:menubar",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "khanshaheb34/menubar",
+        "skill_name": "menubar",
+        "family_key": "khanshaheb34/menubar:menubar",
+        "skills_sh_installs": 7,
+        "skills_sh_installs_display": "7",
+        "skills_sh_url": "https://skills.sh/khanshaheb34/menubar/menubar"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "kj-aiml/tauri-desktop-skills:release-tauri-desktop",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "kj-aiml/tauri-desktop-skills",
+        "skill_name": "release-tauri-desktop",
+        "family_key": "kj-aiml/tauri-desktop-skills:release-tauri-desktop",
+        "skills_sh_installs": 7,
+        "skills_sh_installs_display": "7",
+        "skills_sh_url": "https://skills.sh/kj-aiml/tauri-desktop-skills/release-tauri-desktop"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "mabyko/agentskills:apple-bundle-id-guardrails",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "mabyko/agentskills",
+        "skill_name": "apple-bundle-id-guardrails",
+        "family_key": "mabyko/agentskills:apple-bundle-id-guardrails",
+        "skills_sh_installs": 7,
+        "skills_sh_installs_display": "7",
+        "skills_sh_url": "https://skills.sh/mabyko/agentskills/apple-bundle-id-guardrails"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "marsolab/skills:apple-dev",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "marsolab/skills",
+        "skill_name": "apple-dev",
+        "family_key": "marsolab/skills:apple-dev",
+        "skills_sh_installs": 7,
+        "skills_sh_installs_display": "7",
+        "skills_sh_url": "https://skills.sh/marsolab/skills/apple-dev"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "partme-ai/full-stack-skills:tauri-build",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "partme-ai/full-stack-skills",
+        "skill_name": "tauri-build",
+        "family_key": "partme-ai/full-stack-skills:tauri-build",
+        "skills_sh_installs": 7,
+        "skills_sh_installs_display": "7",
+        "skills_sh_url": "https://skills.sh/partme-ai/full-stack-skills/tauri-build"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "aithink001/codex-dream-skin-themes:codex-dream-skin",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "aithink001/codex-dream-skin-themes",
+        "skill_name": "codex-dream-skin",
+        "family_key": "aithink001/codex-dream-skin-themes:codex-dream-skin",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/aithink001/codex-dream-skin-themes/codex-dream-skin"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "ariaramin/flutter-skills:flutter-production-build-release",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "ariaramin/flutter-skills",
+        "skill_name": "flutter-production-build-release",
+        "family_key": "ariaramin/flutter-skills:flutter-production-build-release",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/ariaramin/flutter-skills/flutter-production-build-release"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "belokonm/claude-supercode-skills:macos-developer",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "belokonm/claude-supercode-skills",
+        "skill_name": "macos-developer",
+        "family_key": "belokonm/claude-supercode-skills:macos-developer",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/belokonm/claude-supercode-skills/macos-developer"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "edheltzel/do-skills:do-macos-swift-desktop",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "edheltzel/do-skills",
+        "skill_name": "do-macos-swift-desktop",
+        "family_key": "edheltzel/do-skills:do-macos-swift-desktop",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/edheltzel/do-skills/do-macos-swift-desktop"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "ericrisco/rsc-harness:gamedev-shipping",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "ericrisco/rsc-harness",
+        "skill_name": "gamedev-shipping",
+        "family_key": "ericrisco/rsc-harness:gamedev-shipping",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/ericrisco/rsc-harness/gamedev-shipping"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "kimeur/duology:duo-navigation",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "kimeur/duology",
+        "skill_name": "duo-navigation",
+        "family_key": "kimeur/duology:duo-navigation",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/kimeur/duology/duo-navigation"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "szoloth/skills:macos-developer",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "szoloth/skills",
+        "skill_name": "macos-developer",
+        "family_key": "szoloth/skills:macos-developer",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/szoloth/skills/macos-developer"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tomlord1122/tomtom-skill:apple-mac-cicd",
+      "queries": [
+        "macos release signing",
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "notarize dmg sparkle",
+        "owner_repo": "tomlord1122/tomtom-skill",
+        "skill_name": "apple-mac-cicd",
+        "family_key": "tomlord1122/tomtom-skill:apple-mac-cicd",
+        "skills_sh_installs": 6,
+        "skills_sh_installs_display": "6",
+        "skills_sh_url": "https://skills.sh/tomlord1122/tomtom-skill/apple-mac-cicd"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "crispvibe/anna-agent-skills:apple-development",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "crispvibe/anna-agent-skills",
+        "skill_name": "apple-development",
+        "family_key": "crispvibe/anna-agent-skills:apple-development",
+        "skills_sh_installs": 5,
+        "skills_sh_installs_display": "5",
+        "skills_sh_url": "https://skills.sh/crispvibe/anna-agent-skills/apple-development"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "dobby/apple-icon-designer:apple-icon-designer",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "dobby/apple-icon-designer",
+        "skill_name": "apple-icon-designer",
+        "family_key": "dobby/apple-icon-designer:apple-icon-designer",
+        "skills_sh_installs": 5,
+        "skills_sh_installs_display": "5",
+        "skills_sh_url": "https://skills.sh/dobby/apple-icon-designer/apple-icon-designer"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "lingmacker/agent-skills:configure-macos-app-icon",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "lingmacker/agent-skills",
+        "skill_name": "configure-macos-app-icon",
+        "family_key": "lingmacker/agent-skills:configure-macos-app-icon",
+        "skills_sh_installs": 5,
+        "skills_sh_installs_display": "5",
+        "skills_sh_url": "https://skills.sh/lingmacker/agent-skills/configure-macos-app-icon"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "lingmacker/agent-skills:configure-macos-menu-bar-icon",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "lingmacker/agent-skills",
+        "skill_name": "configure-macos-menu-bar-icon",
+        "family_key": "lingmacker/agent-skills:configure-macos-menu-bar-icon",
+        "skills_sh_installs": 5,
+        "skills_sh_installs_display": "5",
+        "skills_sh_url": "https://skills.sh/lingmacker/agent-skills/configure-macos-menu-bar-icon"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "the-artificer-of-ciphers-llc/skills-from-the-artificer:developing-ios-apps",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "the-artificer-of-ciphers-llc/skills-from-the-artificer",
+        "skill_name": "developing-ios-apps",
+        "family_key": "the-artificer-of-ciphers-llc/skills-from-the-artificer:developing-ios-apps",
+        "skills_sh_installs": 5,
+        "skills_sh_installs_display": "5",
+        "skills_sh_url": "https://skills.sh/the-artificer-of-ciphers-llc/skills-from-the-artificer/developing-ios-apps"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "aka-kika/akakika-skills:apple-hig-macos-window-layout",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "aka-kika/akakika-skills",
+        "skill_name": "apple-hig-macos-window-layout",
+        "family_key": "aka-kika/akakika-skills:apple-hig-macos-window-layout",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/aka-kika/akakika-skills/apple-hig-macos-window-layout"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "bluewaves-creations/bluewaves-skills:macos-development",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "bluewaves-creations/bluewaves-skills",
+        "skill_name": "macos-development",
+        "family_key": "bluewaves-creations/bluewaves-skills:macos-development",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/bluewaves-creations/bluewaves-skills/macos-development"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "e-palmisano/macos-dev:macos-development-swiftui-appkit",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "e-palmisano/macos-dev",
+        "skill_name": "macos-development-swiftui-appkit",
+        "family_key": "e-palmisano/macos-dev:macos-development-swiftui-appkit",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/e-palmisano/macos-dev/macos-development-swiftui-appkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "fernandezbaptiste/claude-code-skills:developing-ios-apps",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "fernandezbaptiste/claude-code-skills",
+        "skill_name": "developing-ios-apps",
+        "family_key": "fernandezbaptiste/claude-code-skills:developing-ios-apps",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/fernandezbaptiste/claude-code-skills/developing-ios-apps"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "gentpan/liquidglass:liquid-glass-web",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "gentpan/liquidglass",
+        "skill_name": "liquid-glass-web",
+        "family_key": "gentpan/liquidglass:liquid-glass-web",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/gentpan/liquidglass/liquid-glass-web"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "gyorkluu/electrobun-skills:electrobun-distribution",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "gyorkluu/electrobun-skills",
+        "skill_name": "electrobun-distribution",
+        "family_key": "gyorkluu/electrobun-skills:electrobun-distribution",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/gyorkluu/electrobun-skills/electrobun-distribution"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "jordancoin/ios-skills-collection:macos-menubar-tuist-app",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "jordancoin/ios-skills-collection",
+        "skill_name": "macos-menubar-tuist-app",
+        "family_key": "jordancoin/ios-skills-collection:macos-menubar-tuist-app",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/jordancoin/ios-skills-collection/macos-menubar-tuist-app"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "khalidabdi1/swiftship:swift-appstore",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "khalidabdi1/swiftship",
+        "skill_name": "swift-appstore",
+        "family_key": "khalidabdi1/swiftship:swift-appstore",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/khalidabdi1/swiftship/swift-appstore"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "krishhgg/insomnia:install-insomnia",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "krishhgg/insomnia",
+        "skill_name": "install-insomnia",
+        "family_key": "krishhgg/insomnia:install-insomnia",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/krishhgg/insomnia/install-insomnia"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "olilarkin/ableton-extension-skills:ableton-extension-builder",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "olilarkin/ableton-extension-skills",
+        "skill_name": "ableton-extension-builder",
+        "family_key": "olilarkin/ableton-extension-skills:ableton-extension-builder",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/olilarkin/ableton-extension-skills/ableton-extension-builder"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tyroneross/interface-built-right:macos-ui",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "tyroneross/interface-built-right",
+        "skill_name": "macos-ui",
+        "family_key": "tyroneross/interface-built-right:macos-ui",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/tyroneross/interface-built-right/macos-ui"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "zhutao100/macos-gui-app-design-skill:macos-gui-app-design",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "zhutao100/macos-gui-app-design-skill",
+        "skill_name": "macos-gui-app-design",
+        "family_key": "zhutao100/macos-gui-app-design-skill:macos-gui-app-design",
+        "skills_sh_installs": 4,
+        "skills_sh_installs_display": "4",
+        "skills_sh_url": "https://skills.sh/zhutao100/macos-gui-app-design-skill/macos-gui-app-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "ariaramin/flutter-skills:flutter-app-links-deep-link-engineering",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "ariaramin/flutter-skills",
+        "skill_name": "flutter-app-links-deep-link-engineering",
+        "family_key": "ariaramin/flutter-skills:flutter-app-links-deep-link-engineering",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/ariaramin/flutter-skills/flutter-app-links-deep-link-engineering"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "art-of-technology/claude-mobile-skills:ios-build-sign",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "art-of-technology/claude-mobile-skills",
+        "skill_name": "ios-build-sign",
+        "family_key": "art-of-technology/claude-mobile-skills:ios-build-sign",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/art-of-technology/claude-mobile-skills/ios-build-sign"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "daveebbelaar/bawa:windows-design",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "daveebbelaar/bawa",
+        "skill_name": "windows-design",
+        "family_key": "daveebbelaar/bawa:windows-design",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/daveebbelaar/bawa/windows-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "frontendsupply/skills:boilerplate",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "frontendsupply/skills",
+        "skill_name": "boilerplate",
+        "family_key": "frontendsupply/skills:boilerplate",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/frontendsupply/skills/boilerplate"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "kmshdev/claude-swift-toolkit:macos-app-design",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "kmshdev/claude-swift-toolkit",
+        "skill_name": "macos-app-design",
+        "family_key": "kmshdev/claude-swift-toolkit:macos-app-design",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/kmshdev/claude-swift-toolkit/macos-app-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "kmshdev/claude-swift-toolkit:macos-capabilities",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "kmshdev/claude-swift-toolkit",
+        "skill_name": "macos-capabilities",
+        "family_key": "kmshdev/claude-swift-toolkit:macos-capabilities",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/kmshdev/claude-swift-toolkit/macos-capabilities"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "krishhgg/insomnia:maintain-insomnia",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "krishhgg/insomnia",
+        "skill_name": "maintain-insomnia",
+        "family_key": "krishhgg/insomnia:maintain-insomnia",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/krishhgg/insomnia/maintain-insomnia"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "mickyngub/merly:install-merly",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "mickyngub/merly",
+        "skill_name": "install-merly",
+        "family_key": "mickyngub/merly:install-merly",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/mickyngub/merly/install-merly"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "toankhontech/swiftui-mac-pro-skill:swiftui-mac-pro-skill",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "toankhontech/swiftui-mac-pro-skill",
+        "skill_name": "swiftui-mac-pro-skill",
+        "family_key": "toankhontech/swiftui-mac-pro-skill:swiftui-mac-pro-skill",
+        "skills_sh_installs": 3,
+        "skills_sh_installs_display": "3",
+        "skills_sh_url": "https://skills.sh/toankhontech/swiftui-mac-pro-skill/swiftui-mac-pro-skill"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "aivokone/ak-skills:swiftbar",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "aivokone/ak-skills",
+        "skill_name": "swiftbar",
+        "family_key": "aivokone/ak-skills:swiftbar",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/aivokone/ak-skills/swiftbar"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "aresbit/matebot2tg:macos-menubar-tuist-app",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "aresbit/matebot2tg",
+        "skill_name": "macos-menubar-tuist-app",
+        "family_key": "aresbit/matebot2tg:macos-menubar-tuist-app",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/aresbit/matebot2tg/macos-menubar-tuist-app"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "arete-consortium/ai-skills:apple-dev-best-practices",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "arete-consortium/ai-skills",
+        "skill_name": "apple-dev-best-practices",
+        "family_key": "arete-consortium/ai-skills:apple-dev-best-practices",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/arete-consortium/ai-skills/apple-dev-best-practices"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "caidanw/skills:swift-reference-repos",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "caidanw/skills",
+        "skill_name": "swift-reference-repos",
+        "family_key": "caidanw/skills:swift-reference-repos",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/caidanw/skills/swift-reference-repos"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "chimeranext/better-toolkits:maui-publishing",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "chimeranext/better-toolkits",
+        "skill_name": "maui-publishing",
+        "family_key": "chimeranext/better-toolkits:maui-publishing",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/chimeranext/better-toolkits/maui-publishing"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "danieldxd/myapp-skills:better-desktop-interface",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "danieldxd/myapp-skills",
+        "skill_name": "better-desktop-interface",
+        "family_key": "danieldxd/myapp-skills:better-desktop-interface",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/danieldxd/myapp-skills/better-desktop-interface"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "gabuldev/flutter-skills:flutter-store-cd",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "gabuldev/flutter-skills",
+        "skill_name": "flutter-store-cd",
+        "family_key": "gabuldev/flutter-skills:flutter-store-cd",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/gabuldev/flutter-skills/flutter-store-cd"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "george11642/george-plugins:mobile-native",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "george11642/george-plugins",
+        "skill_name": "mobile-native",
+        "family_key": "george11642/george-plugins:mobile-native",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/george11642/george-plugins/mobile-native"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "itisbryan/dear_bryan:macos-app-design",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "itisbryan/dear_bryan",
+        "skill_name": "macos-app-design",
+        "family_key": "itisbryan/dear_bryan:macos-app-design",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/itisbryan/dear_bryan/macos-app-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "jkkn-institutions/kenavo:mobile-fab-navigation",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "jkkn-institutions/kenavo",
+        "skill_name": "mobile-fab-navigation",
+        "family_key": "jkkn-institutions/kenavo:mobile-fab-navigation",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/jkkn-institutions/kenavo/mobile-fab-navigation"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "lynricsy/hyperskills:apple",
+      "queries": [
+        "macos app development swiftui"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "lynricsy/hyperskills",
+        "skill_name": "apple",
+        "family_key": "lynricsy/hyperskills:apple",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/lynricsy/hyperskills/apple"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "markmals/mac-dev-skills:appkit-packaging",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "markmals/mac-dev-skills",
+        "skill_name": "appkit-packaging",
+        "family_key": "markmals/mac-dev-skills:appkit-packaging",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/markmals/mac-dev-skills/appkit-packaging"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "mickyngub/merly:install-merlyn",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "mickyngub/merly",
+        "skill_name": "install-merlyn",
+        "family_key": "mickyngub/merly:install-merlyn",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/mickyngub/merly/install-merlyn"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "phucledien/skills:game-prototype-bible",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "phucledien/skills",
+        "skill_name": "game-prototype-bible",
+        "family_key": "phucledien/skills:game-prototype-bible",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/phucledien/skills/game-prototype-bible"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "robinebers/openusage:telemetry",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "robinebers/openusage",
+        "skill_name": "telemetry",
+        "family_key": "robinebers/openusage:telemetry",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/robinebers/openusage/telemetry"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "safurrier/foreman:macos-app-design",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "safurrier/foreman",
+        "skill_name": "macos-app-design",
+        "family_key": "safurrier/foreman:macos-app-design",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/safurrier/foreman/macos-app-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "sanuponnulli/skills:apple-design-hig",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "sanuponnulli/skills",
+        "skill_name": "apple-design-hig",
+        "family_key": "sanuponnulli/skills:apple-design-hig",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/sanuponnulli/skills/apple-design-hig"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "soulmachine/skills:build-stealth-rustdesk",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "soulmachine/skills",
+        "skill_name": "build-stealth-rustdesk",
+        "family_key": "soulmachine/skills:build-stealth-rustdesk",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/soulmachine/skills/build-stealth-rustdesk"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "stuffbucket/skills:tauri-bundling-github-actions",
+      "queries": [
+        "macos release signing"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos release signing",
+        "owner_repo": "stuffbucket/skills",
+        "skill_name": "tauri-bundling-github-actions",
+        "family_key": "stuffbucket/skills:tauri-bundling-github-actions",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/stuffbucket/skills/tauri-bundling-github-actions"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "thejoaov/skills:electron-tray-app",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "thejoaov/skills",
+        "skill_name": "electron-tray-app",
+        "family_key": "thejoaov/skills:electron-tray-app",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/thejoaov/skills/electron-tray-app"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "therealvandad/claude-web-skills:web-layout-dashboard-sidebar",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "therealvandad/claude-web-skills",
+        "skill_name": "web-layout-dashboard-sidebar",
+        "family_key": "therealvandad/claude-web-skills:web-layout-dashboard-sidebar",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/therealvandad/claude-web-skills/web-layout-dashboard-sidebar"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "xgaisystems/claude-supercode-skills-404kidwiz:macos-developer",
+      "queries": [
+        "macos app development swiftui",
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "macos app development swiftui",
+        "owner_repo": "xgaisystems/claude-supercode-skills-404kidwiz",
+        "skill_name": "macos-developer",
+        "family_key": "xgaisystems/claude-supercode-skills-404kidwiz:macos-developer",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/xgaisystems/claude-supercode-skills-404kidwiz/macos-developer"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "zhutao100/macos-menubar-app-dev-skill:macos-menubar-app-development",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "menu bar app",
+        "owner_repo": "zhutao100/macos-menubar-app-dev-skill",
+        "skill_name": "macos-menubar-app-development",
+        "family_key": "zhutao100/macos-menubar-app-dev-skill:macos-menubar-app-development",
+        "skills_sh_installs": 2,
+        "skills_sh_installs_display": "2",
+        "skills_sh_url": "https://skills.sh/zhutao100/macos-menubar-app-dev-skill/macos-menubar-app-development"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:apple-notes",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "apple-notes",
+        "author": "openclaw",
+        "description": "Create, view, edit, delete, search, move, or export Apple Notes via the memo CLI on macOS.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/skills/apple-notes",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/skills-apple-notes",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-05-17T10:50:27+00:00",
+        "source_key": "openclaw/openclaw:skills/apple-notes",
+        "family_key": "openclaw/openclaw:apple-notes",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:canvas",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "canvas",
+        "author": "openclaw",
+        "description": "Present hosted widget documents on a connected macOS panel and control panel visibility or navigation.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/extensions/canvas/skills/canvas",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/extensions-canvas-skills-canvas",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-08-19T15:21:07+00:00",
+        "source_key": "openclaw/openclaw:extensions/canvas/skills/canvas",
+        "family_key": "openclaw/openclaw:canvas",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:crabbox",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "crabbox",
+        "author": "openclaw",
+        "description": "Crabbox/Testbox remote proof: portable provider routing, untrusted isolation, Linux/macOS/Windows/WSL2, live E2E, diagnostics, cleanup.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/.agents/skills/crabbox",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/agents-skills-crabbox",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-08-30T16:23:51+00:00",
+        "source_key": "openclaw/openclaw:.agents/skills/crabbox",
+        "family_key": "openclaw/openclaw:crabbox",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:node-connect",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "node-connect",
+        "author": "openclaw",
+        "description": "Diagnose OpenClaw Control UI browser and native Android, iOS, or macOS node connection failures across route, auth, pairing, QR/setup-code, and reconnect states.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/skills/node-connect",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/skills-node-connect",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-08-14T18:17:33+00:00",
+        "source_key": "openclaw/openclaw:skills/node-connect",
+        "family_key": "openclaw/openclaw:node-connect",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:openclaw-live-updater",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "openclaw-live-updater",
+        "author": "openclaw",
+        "description": "Maintain the canonical live OpenClaw main checkout, managed Gateway, local macOS app, exact-head main CI, and recurring full release validation. Use for fast-forward update heartbeats, post-update runtime verification, attributable CI repair and repo-native landing, or non-publishing Full Release Validation of current main.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/.agents/skills/openclaw-live-updater",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/agents-skills-openclaw-live-updater",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-08-21T02:11:27+00:00",
+        "source_key": "openclaw/openclaw:.agents/skills/openclaw-live-updater",
+        "family_key": "openclaw/openclaw:openclaw-live-updater",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:openclaw-parallels-smoke",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "openclaw-parallels-smoke",
+        "author": "openclaw",
+        "description": "Prepare, snapshot, run, rerun, debug, or interpret OpenClaw Parallels guest install, onboarding, gateway smoke, and upgrade checks across macOS, Windows, and Linux.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/.agents/skills/openclaw-parallels-smoke",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/agents-skills-openclaw-parallels-smoke",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-08-10T14:31:32+00:00",
+        "source_key": "openclaw/openclaw:.agents/skills/openclaw-parallels-smoke",
+        "family_key": "openclaw/openclaw:openclaw-parallels-smoke",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:parallels-discord-roundtrip",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "parallels-discord-roundtrip",
+        "author": "openclaw",
+        "description": "Run macOS Parallels smoke with Discord send, host verification, host reply, and guest readback proof.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/.agents/skills/parallels-discord-roundtrip",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/agents-skills-parallels-discord-roundtrip",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-04-23T21:18:56+00:00",
+        "source_key": "openclaw/openclaw:.agents/skills/parallels-discord-roundtrip",
+        "family_key": "openclaw/openclaw:parallels-discord-roundtrip",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:peekaboo",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "peekaboo",
+        "author": "openclaw",
+        "description": "Capture and automate macOS UI with the Peekaboo CLI.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/skills/peekaboo",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/skills-peekaboo",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-06-15T13:14:16+00:00",
+        "source_key": "openclaw/openclaw:skills/peekaboo",
+        "family_key": "openclaw/openclaw:peekaboo",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openclaw/openclaw:things-mac",
+      "queries": [
+        "macos app development swiftui",
+        "macos release signing"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "things-mac",
+        "author": "openclaw",
+        "description": "Add, update, list, search, or inspect Things 3 todos, inbox, today, projects, areas, and tags on macOS.",
+        "content_language": "en",
+        "github_url": "https://github.com/openclaw/openclaw/tree/main/skills/things-mac",
+        "skillsmp_url": "https://skillsmp.com/creators/openclaw/openclaw/skills-things-mac",
+        "repo_stars": 393466,
+        "catalog_updated_at": "2026-05-17T10:50:27+00:00",
+        "source_key": "openclaw/openclaw:skills/things-mac",
+        "family_key": "openclaw/openclaw:things-mac",
+        "aliases": [],
+        "query": "macos app development swiftui"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "deepseek-ai/deepseek-harness:dsh-client-ui-ux",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "dsh-client-ui-ux",
+        "author": "deepseek-ai",
+        "description": "Design and review DeepSeek Harness client UI changes — visual token discipline, reuse-before-adding, feedback surfaces (toast vs in-place notice vs empty state), overlay and menu safety, platform window adaptation, loading states, and error copy placement. Use when adding or changing product-user-visible GUI behavior in packages/client, or when reviewing such a PR.",
+        "content_language": "en",
+        "github_url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/.agents/skills/dsh-client-ui-ux",
+        "skillsmp_url": "https://skillsmp.com/creators/deepseek-ai/deepseek-harness/agents-skills-dsh-client-ui-ux",
+        "repo_stars": 268958,
+        "catalog_updated_at": "2026-10-23T15:22:00+00:00",
+        "source_key": "deepseek-ai/deepseek-harness:.agents/skills/dsh-client-ui-ux",
+        "family_key": "deepseek-ai/deepseek-harness:dsh-client-ui-ux",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "microsoft/vscode:context-menus",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "context-menus",
+        "author": "microsoft",
+        "description": "Use when adding, changing, or reviewing context menus or menu contributions, including Action2 `menu` entries and MenuRegistry items with `group`/`order`, hand-built `showContextMenu` action lists, submenus, and separators. Covers group order, destructive-action placement, consistency across surfaces, and labels.",
+        "content_language": "en",
+        "github_url": "https://github.com/microsoft/vscode/tree/main/.github/skills/context-menus",
+        "skillsmp_url": "https://skillsmp.com/creators/microsoft/vscode/github-skills-context-menus",
+        "repo_stars": 194475,
+        "catalog_updated_at": "2026-10-26T21:46:48+00:00",
+        "source_key": "microsoft/vscode:.github/skills/context-menus",
+        "family_key": "microsoft/vscode:context-menus",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "stirling-tools/stirling-pdf:ui-walkthrough",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "ui-walkthrough",
+        "author": "Stirling-Tools",
+        "description": "Full UI investigation of the current branch's feature. Enumerates every view and state (empty, populated, loading, error, each dialog/menu/panel, responsive breakpoints, light + dark + RTL), captures them with the stubbed Playwright harness, assembles a single-image HTML walkthrough with a global light/dark toggle slider, then runs two review passes: visual/consistency (alignment, spacing, professionalism, dark/light parity, contrast, truncation) and UX/ease-of-use (flow, discoverability, affordances, empty/error states, expectations). Use when asked for a UI walkthrough, screenshot review, design or QA pass, \"find anywhere to make it easier/better for users\", or before merging frontend work. Pass --fix to auto-apply safe frontend fixes and re-capture; --theme to limit themes; --no-rtl to skip RTL.",
+        "content_language": "en",
+        "github_url": "https://github.com/Stirling-Tools/Stirling-PDF/tree/main/.claude/skills/ui-walkthrough",
+        "skillsmp_url": "https://skillsmp.com/creators/stirling-tools/stirling-pdf/claude-skills-ui-walkthrough",
+        "repo_stars": 95551,
+        "catalog_updated_at": "2026-10-21T22:21:07+00:00",
+        "source_key": "stirling-tools/stirling-pdf:.claude/skills/ui-walkthrough",
+        "family_key": "stirling-tools/stirling-pdf:ui-walkthrough",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "lobehub/lobehub:desktop",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "desktop",
+        "author": "lobehub",
+        "description": "Electron desktop development guide — IPC handlers, controllers, preload scripts, window/menu management.",
+        "content_language": "en",
+        "github_url": "https://github.com/lobehub/lobehub/tree/canary/.agents/skills/desktop",
+        "skillsmp_url": "https://skillsmp.com/creators/lobehub/lobehub/agents-skills-desktop",
+        "repo_stars": 83703,
+        "catalog_updated_at": "2026-10-13T17:07:22+00:00",
+        "source_key": "lobehub/lobehub:.agents/skills/desktop",
+        "family_key": "lobehub/lobehub:desktop",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "thedaviddias/front-end-checklist:touch-targets",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "touch-targets",
+        "author": "thedaviddias",
+        "description": "Use when applies to all interactive elements on touchscreen interfaces: buttons, links, checkboxes, radio buttons, form inputs, icon buttons, and menu items. Check CSS for min-width, min-height, width, height, and padding on interactive elements. Particularly important for icon-only buttons (close, delete, share) which are often made too small.",
+        "content_language": "en",
+        "github_url": "https://github.com/thedaviddias/Front-End-Checklist/tree/main/skills/touch-targets",
+        "skillsmp_url": "https://skillsmp.com/creators/thedaviddias/front-end-checklist/skills-touch-targets",
+        "repo_stars": 74632,
+        "catalog_updated_at": "2026-10-04T21:27:25+00:00",
+        "source_key": "thedaviddias/front-end-checklist:skills/touch-targets",
+        "family_key": "thedaviddias/front-end-checklist:touch-targets",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "cline/cline:publish-desktop",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "publish-desktop",
+        "author": "cline",
+        "description": "Use when preparing, tagging, and publishing a Cline desktop app (apps/examples/desktop-app) release — stable (desktop-vX.Y.Z from main), beta (desktop-vX.Y.Z-beta.N from desktop-experimental, shipped as the side-by-side \"Cline Beta\" app), or nightly (artifact-only test build of main's HEAD, tagged desktop-nightly-<stamp> after it builds). Guides changelog drafting, version bumps in package.json + tauri.conf.json, tagging, and the desktop-publish GitHub workflow that builds, signs, notarizes, and updates the per-channel auto-update feed.",
+        "content_language": "en",
+        "github_url": "https://github.com/cline/cline/tree/main/.cline/skills/publish-desktop",
+        "skillsmp_url": "https://skillsmp.com/creators/cline/cline/cline-skills-publish-desktop",
+        "repo_stars": 71206,
+        "catalog_updated_at": "2026-10-14T04:58:41+00:00",
+        "source_key": "cline/cline:.cline/skills/publish-desktop",
+        "family_key": "cline/cline:publish-desktop",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "hkuds/cli-anything:cli-anything-slay-the-spire-ii",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "cli-anything-slay-the-spire-ii",
+        "author": "HKUDS",
+        "description": "Command-line interface for Slay the Spire 2 - Control the real game through a local bridge mod HTTP API. Reads normalized game state and sends action commands for combat, navigation, rewards, and menu management.",
+        "content_language": "en",
+        "github_url": "https://github.com/HKUDS/CLI-Anything/tree/main/skills/cli-anything-slay-the-spire-ii",
+        "skillsmp_url": "https://skillsmp.com/creators/hkuds/cli-anything/skills-cli-anything-slay-the-spire-ii",
+        "repo_stars": 58084,
+        "catalog_updated_at": "2026-04-18T10:12:58+00:00",
+        "source_key": "hkuds/cli-anything:skills/cli-anything-slay-the-spire-ii",
+        "family_key": "hkuds/cli-anything:cli-anything-slay-the-spire-ii",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "metabase/metabase:playwright-mcp-metabase",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "playwright-mcp-metabase",
+        "author": "metabase",
+        "description": "Drive Metabase's UI with the Playwright MCP browser tools (mcp__playwright__browser_*). Covers the snapshot/act/check pattern, Mantine component pitfalls (Menu race, Select/MultiSelect, the Escape-closes-modal trap, portal scoping), and Metabase-specific login flows. Use whenever a session needs to interact with the Metabase UI through Playwright MCP.",
+        "content_language": "en",
+        "github_url": "https://github.com/metabase/metabase/tree/master/.claude/skills/playwright-mcp-metabase",
+        "skillsmp_url": "https://skillsmp.com/creators/metabase/metabase/claude-skills-playwright-mcp-metabase",
+        "repo_stars": 50104,
+        "catalog_updated_at": "2026-05-04T20:47:53+00:00",
+        "source_key": "metabase/metabase:.claude/skills/playwright-mcp-metabase",
+        "family_key": "metabase/metabase:playwright-mcp-metabase",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tabler/tabler:navigation",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "navigation",
+        "author": "tabler",
+        "description": "Make a page reachable and keep its links valid — the preview sidebar/navbar menu in `shared/data/menu.json`, the docs menu in `shared/data/docs.json`, and the redirects in `docs/lib/redirects.ts`. Use whenever a page is added, renamed, moved or removed in `preview/pages/` or `docs/content/`, whenever a `pageMenu` key does not highlight the right entry, and whenever a docs URL changes. Covers both menu formats, the `pageMenu` key rules and the link gate.",
+        "content_language": "en",
+        "github_url": "https://github.com/tabler/tabler/tree/dev/.agents/skills/navigation",
+        "skillsmp_url": "https://skillsmp.com/creators/tabler/tabler/agents-skills-navigation",
+        "repo_stars": 41988,
+        "catalog_updated_at": "2026-10-20T11:19:37+00:00",
+        "source_key": "tabler/tabler:.agents/skills/navigation",
+        "family_key": "tabler/tabler:navigation",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tabler/tabler:upgrade-guide",
+      "queries": [
+        "menu bar app"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "upgrade-guide",
+        "author": "tabler",
+        "description": "Write or update the upgrade guide for a Tabler release — the page under `docs/content/ui/getting-started/upgrade/<version>.mdx` that lists every breaking change with a before and after example. Use whenever the user asks for a migration or upgrade guide, release migration notes, or \"what breaks in X.Y\", and proactively before a release when `.changeset/` holds entries that remove or rename something. Covers where the facts come from, the page skeleton, the menu and ordering rules, and how to check the result.",
+        "content_language": "en",
+        "github_url": "https://github.com/tabler/tabler/tree/dev/.agents/skills/upgrade-guide",
+        "skillsmp_url": "https://skillsmp.com/creators/tabler/tabler/agents-skills-upgrade-guide",
+        "repo_stars": 41988,
+        "catalog_updated_at": "2026-10-20T11:19:37+00:00",
+        "source_key": "tabler/tabler:.agents/skills/upgrade-guide",
+        "family_key": "tabler/tabler:upgrade-guide",
+        "aliases": [],
+        "query": "menu bar app"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tw93/kaku:release",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "release",
+        "author": "tw93",
+        "description": "Run the Kaku macOS release flow end-to-end: preflight, build, notarize, tag, upload to GitHub Releases, dispatch the Homebrew tap, or publish the rolling Nightly preview package. Source of truth is scripts/release.sh and scripts/nightly.sh; this skill records release prerequisites and recovery hints without embedding private machine setup.",
+        "content_language": "en",
+        "github_url": "https://github.com/tw93/Kaku/tree/main/.agents/skills/release",
+        "skillsmp_url": "https://skillsmp.com/creators/tw93/kaku/agents-skills-release",
+        "repo_stars": 6179,
+        "catalog_updated_at": "2026-11-01T04:50:40+00:00",
+        "source_key": "tw93/kaku:.agents/skills/release",
+        "family_key": "tw93/kaku:release",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "romainsimon/paperasse:notaire",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "notaire",
+        "author": "romainsimon",
+        "description": "Notaire IA pour le droit immobilier, les successions, les donations, le droit de la famille\net le droit des sociétés en France. Copilote juridique pour la préparation d'actes, le conseil\npatrimonial, les calculs de frais et la vérification de conformité.\n\nCouvre le calcul des frais de notaire (DMTO, émoluments, débours, CSI), la plus-value\nimmobilière, les droits de succession et donation, le démembrement, les contrats de mariage,\nles PACS, les SCI, et la rédaction de projets d'actes (compromis, statuts, testaments).\n\nTriggers: notaire, frais de notaire, acte de vente, compromis, succession, donation, héritage, testament, PACS, contrat de mariage, SCI, plus-value immobilière, droits de mutation, DMTO, usufruit, nue-propriété, partage successoral, réserve héréditaire, viager, donation-partage, diagnostics immobilier, droit de préemption, acte notarié, droit immobilier",
+        "content_language": "fr",
+        "github_url": "https://github.com/romainsimon/paperasse/tree/master/notaire",
+        "skillsmp_url": "https://skillsmp.com/creators/romainsimon/paperasse/notaire",
+        "repo_stars": 2573,
+        "catalog_updated_at": "2026-04-17T20:06:23+00:00",
+        "source_key": "romainsimon/paperasse:notaire",
+        "family_key": "romainsimon/paperasse:notaire",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "rorkai/app-store-connect-cli-skills:asc-notarization",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "asc-notarization",
+        "author": "rorkai",
+        "description": "Archive, export, and notarize macOS apps using xcodebuild and asc. Use when you need to prepare a macOS app for distribution outside the App Store with Developer ID signing and Apple notarization.",
+        "content_language": "en",
+        "github_url": "https://github.com/rorkai/app-store-connect-cli-skills/tree/main/skills/asc-notarization",
+        "skillsmp_url": "https://skillsmp.com/creators/rorkai/app-store-connect-cli-skills/skills-asc-notarization",
+        "repo_stars": 1121,
+        "catalog_updated_at": "2026-09-06T15:38:47+00:00",
+        "source_key": "rorkai/app-store-connect-cli-skills:skills/asc-notarization",
+        "family_key": "rorkai/app-store-connect-cli-skills:asc-notarization",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "freekmurze/dotfiles:macos-release",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "macos-release",
+        "author": "freekmurze",
+        "description": "Release a native macOS app to GitHub with DMG packaging and Sparkle appcast updates. Use this skill whenever the user wants to publish a new version, create a release, ship an update, push a release to GitHub, or update the appcast. Also trigger when the user mentions DMG creation, Sparkle signing, notarization, archiving, or anything related to distributing a new version of their macOS app. This covers the full release pipeline: archive, notarize, export, create DMG, sign with Sparkle EdDSA, update appcast.xml, git push, and GitHub release creation.",
+        "content_language": "en",
+        "github_url": "https://github.com/freekmurze/dotfiles/tree/main/config/claude/skills/release",
+        "skillsmp_url": "https://skillsmp.com/creators/freekmurze/dotfiles/config-claude-skills-release",
+        "repo_stars": 1015,
+        "catalog_updated_at": "2026-10-14T06:37:33+00:00",
+        "source_key": "freekmurze/dotfiles:config/claude/skills/release",
+        "family_key": "freekmurze/dotfiles:macos-release",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "danielbuechele/goofy:publish",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "publish",
+        "author": "danielbuechele",
+        "description": "Build, sign, notarize, and release a new version of Goofy",
+        "content_language": "en",
+        "github_url": "https://github.com/danielbuechele/goofy/tree/main/.claude/skills/publish",
+        "skillsmp_url": "https://skillsmp.com/creators/danielbuechele/goofy/claude-skills-publish",
+        "repo_stars": 990,
+        "catalog_updated_at": "2026-04-22T22:14:00+00:00",
+        "source_key": "danielbuechele/goofy:.claude/skills/publish",
+        "family_key": "danielbuechele/goofy:publish",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "onevcat/prowl:release",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "release",
+        "author": "onevcat",
+        "description": "Build, sign, notarize, and publish a Prowl release.",
+        "content_language": "en",
+        "github_url": "https://github.com/onevcat/Prowl/tree/main/.claude/skills/release",
+        "skillsmp_url": "https://skillsmp.com/creators/onevcat/prowl/claude-skills-release",
+        "repo_stars": 665,
+        "catalog_updated_at": "2026-09-17T16:56:51+00:00",
+        "source_key": "onevcat/prowl:.claude/skills/release",
+        "family_key": "onevcat/prowl:release",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "pedronauck/skills:electron-builder",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "electron-builder",
+        "author": "pedronauck",
+        "description": "Comprehensive guide for electron-builder (v26.x) packaging, code signing, auto-updates,\nand release workflows. Use when: (1) configuring electron-builder builds (electron-builder.yml\nor config.js/ts), (2) setting up macOS/Windows code signing or notarization, (3) implementing\nauto-updates with electron-updater, (4) publishing to GitHub Releases, S3, or generic servers,\n(5) configuring platform targets (NSIS, DMG, AppImage, Snap, PKG, MSI), (6) working with\nbuild hooks (beforePack, afterSign, afterAllArtifactBuild), or (7) using the programmatic API.\nTriggers on: electron-builder, electron-updater, code signing, notarize, NSIS, DMG, AppImage,\nauto-update, publish releases, build hooks, electron packaging, electron distribution.",
+        "content_language": "en",
+        "github_url": "https://github.com/pedronauck/skills/tree/main/skills/curated/electron-builder",
+        "skillsmp_url": "https://skillsmp.com/creators/pedronauck/skills/skills-curated-electron-builder",
+        "repo_stars": 647,
+        "catalog_updated_at": "2026-09-14T17:44:32+00:00",
+        "source_key": "pedronauck/skills:skills/curated/electron-builder",
+        "family_key": "pedronauck/skills:electron-builder",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "lnikell/loopndroll:macos-release-loopndroll",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "macos-release-loopndroll",
+        "author": "lnikell",
+        "description": "Build, sign, notarize, and publish the Loopndroll macOS release for this repository. Use when the user asks to bump the app version, produce a signed/notarized macOS build, or publish/update a GitHub release for Loopndroll without re-discovering the project-specific release flow.",
+        "content_language": "en",
+        "github_url": "https://github.com/lnikell/loopndroll/tree/main/.agents/skills/macos-release-loopndroll",
+        "skillsmp_url": "https://skillsmp.com/creators/lnikell/loopndroll/agents-skills-macos-release-loopndroll",
+        "repo_stars": 563,
+        "catalog_updated_at": "2026-04-15T19:56:04+00:00",
+        "source_key": "lnikell/loopndroll:.agents/skills/macos-release-loopndroll",
+        "family_key": "lnikell/loopndroll:macos-release-loopndroll",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "theorcdev/videorc:videorc-release",
+      "queries": [
+        "notarize dmg sparkle"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "videorc-release",
+        "author": "TheOrcDev",
+        "description": "Cut and publish coordinated Videorc desktop releases for the signed and notarized macOS Beta and the signed Windows 11 x64 Alpha, including version/changelog preparation, protected Windows candidate and promotion workflows, release storage publication (Neon target origin), updater verification, and release records. Use when the user asks to cut, ship, publish, deploy, or make a new Videorc desktop release or update. Target both macOS and Windows by default unless the user explicitly narrows the platform.",
+        "content_language": "en",
+        "github_url": "https://github.com/TheOrcDev/videorc/tree/main/.claude/skills/videorc-release",
+        "skillsmp_url": "https://skillsmp.com/creators/theorcdev/videorc/claude-skills-videorc-release",
+        "repo_stars": 524,
+        "catalog_updated_at": "2026-10-25T03:29:57+00:00",
+        "source_key": "theorcdev/videorc:.claude/skills/videorc-release",
+        "family_key": "theorcdev/videorc:videorc-release",
+        "aliases": [],
+        "query": "notarize dmg sparkle"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    }
+  ],
+  "missing_evidence": [],
+  "next_steps": [
+    "shortlist by job relevance and role coverage, not combined popularity",
+    "open canonical GitHub source and inspect SKILL.md before adoption",
+    "verify license, maintenance, permissions, security, duplication, and rating evidence",
+    "write keep/adapt/reject/invent synthesis before authoring"
+  ]
+}

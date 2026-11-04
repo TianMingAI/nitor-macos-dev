@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-11-04T11:00:00+08:00",
+  "evidence_kind": "local_runtime_review",
+  "ok": true,
+  "provider_backed": false,
+  "human_blind_review": false,
+  "runtime": {
+    "toolchain": "Swift 6 / Xcode command line tools, macOS 27",
+    "generated_apps": [
+      {"name": "Pebble", "kind": "menubar", "build": "pass", "signature": "Developer ID Application", "LSUIElement": true, "selftest": "ALL PASS", "dmg": "SKIP_NOTARIZE=1 ./release.sh -> dist/Pebble-0.1.0.dmg"},
+      {"name": "Ledger", "kind": "window", "build": "pass", "signature": "Developer ID Application", "LSUIElement": false, "selftest": "ALL PASS"}
+    ],
+    "snapshots_reviewed_by_agent": ["docs/assets/menubar-panel.png", "docs/assets/menubar-panel-dark.png", "docs/assets/about.png", "docs/assets/window-main.png"],
+    "defects_found_and_fixed": ["About footer year rendered as 2,026", "actool stale ibtoold cwd failed silently", "window-kind General tab had excess empty height"]
+  },
+  "missing_evidence": ["fresh-session one-sentence end-to-end run", "notarization of a generated (non-Jot) app", "human blind review"]
+}
