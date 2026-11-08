@@ -3,7 +3,7 @@ import SwiftUI
 import KeyboardShortcuts
 import ServiceManagement
 
-// __NAME_ZH__ (__NAME__): app scaffold from qiaomu-macos-dev (AppInfo.menuBar picks the shape).
+// __NAME_ZH__ (__NAME__): app scaffold from nitor-macos-dev (AppInfo.menuBar picks the shape).
 // Proven patterns baked in: non-activating floating panel, real main menu (⌘, ⌘W ⌘Q and Edit keys),
 // settings as a regular window while open, launch at login, Sparkle, --snapshot / --selftest modes.
 

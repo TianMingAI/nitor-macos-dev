@@ -12,9 +12,9 @@ GEN = ROOT / "scripts" / "new_app.py"
 
 
 def generate(target, *extra):
-    env = dict(os.environ, HOME=tempfile.mkdtemp())  # no qiaomu-profile assets: exercises the fallback note
-    return subprocess.run([sys.executable, str(GEN), "--dir", str(target), "--name", "Demo", "--zh", "乔木演示",
-                           "--bundle-id", "ai.qiaomu.demo", "--repo", "joeseesun/qiaomu-demo", "--lucide",
+    env = dict(os.environ, NITOR_OFFLINE="1")  # deterministic, no network or personal data
+    return subprocess.run([sys.executable, str(GEN), "--dir", str(target), "--name", "Demo", "--zh", "Nitor演示",
+                           "--bundle-id", "ai.nitor.demo", "--repo", "TianMingAI/nitor-demo", "--lucide",
                            "definitely-not-a-lucide-icon", *extra], capture_output=True, text=True, env=env)
 
 
@@ -26,7 +26,7 @@ class NewAppTests(unittest.TestCase):
             self.assertEqual(r.returncode, 0, r.stderr)
             main = (p / "Sources/Demo/main.swift").read_text()
             self.assertIn("static let menuBar = true", main)
-            self.assertIn('static let name = "乔木演示"', main)
+            self.assertIn('static let name = "Nitor演示"', main)
             self.assertIn("<key>LSUIElement</key><true/>", (p / "build.sh").read_text())
             leftovers = [str(f) for f in p.rglob("*") if f.is_file() and f.suffix in {".swift", ".sh", ".py"}
                          and "__" in "".join(t for t in ("__NAME", "__REPO", "__BUNDLE", "__MENUBAR", "__TAGLINE")
@@ -34,7 +34,7 @@ class NewAppTests(unittest.TestCase):
             self.assertEqual(leftovers, [])
             self.assertTrue(os.access(p / "build.sh", os.X_OK))
             self.assertTrue((p / ".git").is_dir())
-            self.assertIn("github.com/joeseesun/qiaomu-demo", (p / "Sources/Demo/SettingsView.swift").read_text())
+            self.assertIn("github.com/TianMingAI/nitor-demo", (p / "Sources/Demo/SettingsView.swift").read_text())
 
     def test_window_project(self):
         with tempfile.TemporaryDirectory() as d:

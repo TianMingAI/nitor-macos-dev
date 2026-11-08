@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nitor macOS 开发"
+  short_description: "开发原生 Mac 应用，沿用黑白克制设计，覆盖菜单栏、设置、自动更新和公证打包"
+  default_prompt: "使用 $nitor-macos-dev 开发或改进这个原生 macOS 应用，遵循自带的黑白设计规范和 Nitor 品牌配置。"
+policy:
+  allow_implicit_invocation: true

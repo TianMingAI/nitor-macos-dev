@@ -1,3 +1,5 @@
+> Historical upstream research, preserved for attribution; not validation of the TianMing fork.
+
 # Prior-Art Research · qiaomu-macos-dev
 
 Date: 2026-11-04. Runner: `research_prior_art.py` (skills.sh + SkillsMP), raw results in `prior-art-candidates.json`.

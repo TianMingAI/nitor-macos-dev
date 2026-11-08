@@ -1,6 +1,6 @@
 # UI Polish
 
-The user rejected three rounds of "fine" UI on Jot ("灰蒙蒙的", "依然十分丑陋") before landing on Vercel black/white. Start there.
+This is the default visual direction every time nitor-macos-dev handles a macOS UI task. Use these tokens and native Mac interactions as the primary guide, rather than website-oriented frontend-design defaults. A newer explicit user direction wins. This does not change design rules for websites or other tasks.
 
 ## Visual language
 

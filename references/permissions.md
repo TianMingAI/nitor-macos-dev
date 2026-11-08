@@ -5,7 +5,7 @@
 - Ask only when a feature needs it, right when the user triggers it, after one sentence in your own UI saying why.
 - Always handle "denied": explain in a toast/row, offer "打开系统设置" (deep link), and keep working with reduced features.
 - **TCC grants are bound to the code signature.** Ad-hoc signatures change every build, so permissions silently reset and prompts repeat. Sign every build, even debug, with the same Developer ID (build.sh does).
-- During development the user may need to remove stale entries: `tccutil reset Accessibility ai.qiaomu.x` (tell them; don't run resets on their behalf without asking).
+- During development the user may need to remove stale entries: `tccutil reset Accessibility ai.nitor.x` (tell them; don't run resets on their behalf without asking).
 
 ## Common permissions
 

@@ -28,7 +28,7 @@ Walk this before every handoff. Items marked ★ are in the template already; ve
 
 - [ ] ★ Native toolbar tabs, title follows the tab, nothing auto-focused.
 - [ ] Every setting has a default, applies immediately, and shows a preview when it changes output.
-- [ ] ★ About: version, 检查更新, 反馈问题, 使用说明, 源代码, auto-update toggle, QR cards, privacy line, license, correct year.
+- [ ] ★ About: version, 检查更新, 反馈问题, 使用说明, 源代码, auto-update toggle, optional owner QR cards (only when supplied), privacy line, license, correct year.
 - [ ] A way to reset settings and to reveal data files in Finder.
 
 ## Robustness

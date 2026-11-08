@@ -64,7 +64,7 @@ struct GeneralSettings: View {
 
 enum Links {
     static let repo = URL(string: "https://github.com/__REPO__")!
-    static let issues = URL(string: "https://github.com/__REPO__/issues/new")!
+    static let issues = Brand.current.feedbackURL ?? URL(string: "https://github.com/__REPO__/issues/new")!
     static let readme = URL(string: "https://github.com/__REPO__#readme")!
 }
 
@@ -95,20 +95,36 @@ struct AboutSettings: View {
                 .toggleStyle(.checkbox).font(.system(size: 12)).foregroundStyle(.secondary)
                 .onChange(of: autoUpdate) { Updater.shared.automaticallyChecks = $0 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-            HStack(spacing: 14) {
-                QRCard(image: "wechat-qr.jpg", title: "关注公众号", symbol: "newspaper", hint: "微信搜索「向阳乔木推荐看」")
-                QRCard(image: "reward-qr.png", title: "请我喝杯咖啡", symbol: "cup.and.saucer", hint: "微信扫码，支持持续更新")
+            if Brand.hasImage("wechat-qr.jpg") || Brand.hasImage("reward-qr.png") {
+                HStack(spacing: 14) {
+                    if Brand.hasImage("wechat-qr.jpg") {
+                        QRCard(image: "wechat-qr.jpg", title: "关注公众号", symbol: "newspaper", hint: Brand.current.wechat_name)
+                    }
+                    if Brand.hasImage("reward-qr.png") {
+                        QRCard(image: "reward-qr.png", title: "请我喝杯咖啡", symbol: "cup.and.saucer", hint: "扫码支持持续更新")
+                    }
+                }
             }
             VStack(spacing: 8) {
                 HStack(spacing: 14) {
-                    ForEach([("qiaomu.ai", "https://qiaomu.ai/"), ("博客", "https://blog.qiaomu.ai/"), ("乔木推荐", "https://tuijian.qiaomu.ai/"),
-                             ("X", "https://x.com/vista8"), ("GitHub", "https://github.com/joeseesun")], id: \.0) { item in
-                        Link(item.0, destination: URL(string: item.1)!).font(.system(size: 12, weight: .medium))
-                            .foregroundStyle(Color.primary.opacity(0.75))
+                    if let url = Brand.webURL(Brand.current.github_url) {
+                        Link("GitHub", destination: url)
+                    }
+                    if let url = Brand.webURL(Brand.current.website) {
+                        Link("个人网站", destination: url)
+                    }
+                    if let url = Brand.current.feedbackURL {
+                        Link("联系我", destination: url)
                     }
                 }
+                .font(.system(size: 12, weight: .medium))
+                .foregroundStyle(Color.primary.opacity(0.75))
+                if !Brand.current.wechat_name.isEmpty && !Brand.hasImage("wechat-qr.jpg") {
+                    Text("公众号：\(Brand.current.wechat_name)")
+                        .font(.system(size: 11)).foregroundStyle(.secondary)
+                }
                 Text("数据只保存在本机。").font(.system(size: 11)).foregroundStyle(.secondary)
-                Text("© \(String(Calendar.current.component(.year, from: Date()))) 向阳乔木 · MIT 许可 · 第三方许可见 THIRD_PARTY_NOTICES.md")
+                Text("© \(String(Calendar.current.component(.year, from: Date()))) \(Brand.current.name) · MIT 许可 · 第三方许可见 THIRD_PARTY_NOTICES.md")
                     .font(.system(size: 11)).foregroundStyle(.tertiary)
             }
         }
