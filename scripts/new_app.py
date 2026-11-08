@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Scaffold a polished macOS macOS app (SwiftPM; menu bar or window) from qiaomu-macos-dev's template.
+"""Scaffold a polished macOS app (SwiftPM; menu bar or window) from nitor-macos-dev's template.
 
 Example:
-  python3 scripts/new_app.py --dir ~/Code/qiaomu-clip --name Clip --zh 乔木剪 \
-      --bundle-id ai.qiaomu.clip --repo joeseesun/qiaomu-clip \
+  python3 scripts/new_app.py --dir ~/Code/nitor-clip --name Clip --zh Nitor剪 \
+      --bundle-id ai.nitor.clip --repo TianMingAI/nitor-clip \
       --tagline "一句话说明它为你做什么" --lucide scissors --symbol scissors
 
 Produces a git-initialised project that builds with ./build.sh, has a settings window with About,
@@ -22,7 +22,7 @@ from pathlib import Path
 
 SKILL = Path(__file__).resolve().parent.parent
 TEMPLATE = SKILL / "assets" / "template"
-PROFILE = Path.home() / ".agents/skills/qiaomu-profile/assets"
+BRAND = SKILL / "assets/brand.json"
 LUCIDE = "https://cdn.jsdelivr.net/npm/lucide-static@1.67.0/icons/{}.svg"
 TEXT_SUFFIXES = {".swift", ".sh", ".py", ".json", ".md", ".entitlements", ".svg", ".txt", ""}
 
@@ -34,6 +34,8 @@ def fail(msg):
 
 def lucide_paths(name):
     """Inner elements of a Lucide icon (24×24 grid, stroke-based)."""
+    if os.environ.get("NITOR_OFFLINE") == "1":
+        return '<path d="M12 3l2.6 5.6L20 11l-5.4 2.4L12 19l-2.6-5.6L4 11l5.4-2.4z"/>'
     try:
         with urllib.request.urlopen(LUCIDE.format(name), timeout=15) as r:
             svg = r.read().decode()
@@ -76,8 +78,8 @@ def substitute(text, values):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dir", required=True, help="new project folder (must not exist or be empty)")
-    ap.add_argument("--name", required=True, help="ASCII bundle / executable name, e.g. Jot")
-    ap.add_argument("--zh", required=True, help="Chinese display name, e.g. 乔木闪记")
+    ap.add_argument("--name", required=True, help="ASCII bundle / executable name, e.g. Note")
+    ap.add_argument("--zh", required=True, help="Chinese display name, e.g. Nitor闪记")
     ap.add_argument("--bundle-id", required=True, help="reverse-DNS id; never change it after release")
     ap.add_argument("--repo", required=True, help="GitHub owner/name used for links and the update feed")
     ap.add_argument("--tagline", default="一句话说明它为你做什么")
@@ -116,12 +118,13 @@ def main():
     write_icon(project, args.lucide)
     about = project / "Resources/About"
     about.mkdir(parents=True, exist_ok=True)
-    if (PROFILE / "qiaomu_wechat_public_account_qr.jpg").exists():
-        shutil.copy2(PROFILE / "qiaomu_wechat_public_account_qr.jpg", about / "wechat-qr.jpg")
-        subprocess.run(["sips", "-Z", "520", str(PROFILE / "qiaomu_reward_qr.png"), "--out", str(about / "reward-qr.png")],
-                       capture_output=True)
-    else:
-        print("note: qiaomu-profile QR assets not found; About shows empty cards until Resources/About/*.png exist")
+    shutil.copy2(BRAND, about / "brand.json")
+    # Optional, explicitly supplied owner assets; no external personal-profile dependency.
+    for filename in ("wechat-qr.jpg", "reward-qr.png"):
+        src = SKILL / "assets/brand" / filename
+        if src.is_file():
+            shutil.copy2(src, about / filename)
+    (project / "NOTICE.md").write_text((SKILL / "NOTICE.md").read_text())
 
     (project / "VERSION").write_text("0.1.0\n")
     (project / ".gitignore").write_text(".build/\n.swiftpm/\nbuild/\ndist/\n.DS_Store\nxcuserdata/\n")
@@ -134,7 +137,8 @@ def main():
 
 MIT = """MIT License
 
-Copyright (c) {year} 向阳乔木 (Qiaomu, https://github.com/joeseesun)
+Copyright (c) {year} Nitor (TianMingAI, https://github.com/TianMingAI)
+Copyright (c) 2026 向阳乔木 (upstream template; see NOTICE.md)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation
@@ -161,7 +165,8 @@ NOTICES = """# Third-Party Notices · 第三方许可
 | [Lucide](https://lucide.dev) "{lucide}" | App icon artwork | ISC |
 
 Keep full license texts in `licenses/` for anything bundled (fonts, icons, sounds).
-The QR codes in `Resources/About/` belong to 向阳乔木 and are not covered by the MIT license.
+The upstream template attribution is retained in NOTICE.md and LICENSE.
+Optional owner-supplied QR images are not covered by the code license; verify their usage rights.
 """
 
 if __name__ == "__main__":

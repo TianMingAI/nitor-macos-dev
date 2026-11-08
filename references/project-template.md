@@ -1,6 +1,6 @@
 # Project Template
 
-`scripts/new_app.py` copies `assets/template/` and substitutes `__NAME__`, `__NAME_ZH__`, `__BUNDLE_ID__`, `__REPO__`, `__TAGLINE__`, `__SYMBOL__`, `__DMG_HINT__`, `__MENUBAR__`. It also writes the icon, About QR codes, VERSION (0.1.0), .gitignore, MIT LICENSE, THIRD_PARTY_NOTICES.md and runs `git init -b main`.
+`scripts/new_app.py` copies `assets/template/` and substitutes `__NAME__`, `__NAME_ZH__`, `__BUNDLE_ID__`, `__REPO__`, `__TAGLINE__`, `__SYMBOL__`, `__DMG_HINT__`, `__MENUBAR__`. It also writes the icon, About brand.json and any supplied QR images, VERSION (0.1.0), .gitignore, MIT LICENSE, THIRD_PARTY_NOTICES.md and runs `git init -b main`.
 
 ## Layout
 
@@ -9,10 +9,11 @@ Package.swift                SwiftPM executable; KeyboardShortcuts + Sparkle
 Sources/<Name>/main.swift    AppInfo, FloatingPanel, AppDelegate (menus, panel/main window, settings), --snapshot, --selftest
 Sources/<Name>/Theme.swift   Vercel tokens, Geist registration, PanelView (menubar) and MainView (window) starters
 Sources/<Name>/SettingsView.swift  SettingsTabs, GeneralSettings, AboutSettings, Links
+Sources/<Name>/Brand.swift   loads optional owner metadata and links from About/brand.json
 Sources/<Name>/Updater.swift Sparkle wrapper with gentle reminders
 Sources/<Name>/Toast.swift   non-activating toast with actions ("已保存  撤销")
 Resources/AppIcon.icon       Icon Composer package (icon.json + SVG layers)
-Resources/About/             wechat-qr.jpg, reward-qr.png (owned by 向阳乔木, not MIT)
+Resources/About/             brand.json; optional owner wechat-qr.jpg / reward-qr.png
 Resources/<Name>.entitlements  hardened-runtime entitlements (apple-events by default)
 Resources/sparkle-public-key.txt  written by scripts/sparkle-key.sh
 build.sh                     swift build → .app bundle → Info.plist → actool icon → sign

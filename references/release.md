@@ -1,6 +1,6 @@
 # Release: Sign, Notarize, DMG
 
-For .pkg installers, native-messaging helpers and browser-extension bundles, read qiaomu-dev-skill `references/macos-pkg.md` instead; this file covers standalone `.app` + DMG.
+For .pkg installers, native-messaging helpers and browser-extension bundles, use an appropriate installer workflow instead; this file covers standalone `.app` + DMG.
 
 ## One-time machine setup (record where things live, never the secrets)
 

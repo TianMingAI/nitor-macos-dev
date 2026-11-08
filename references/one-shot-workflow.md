@@ -10,7 +10,7 @@ Extract, don't interrogate:
 |---|---|
 | Pain point and the single core action | Infer from the sentence; write the tagline (≤ 20 汉字, says what it does *for you*) |
 | Shape | `menubar` when the job is quick and frequent (capture, toggle, glance); `window` when the user works inside it for minutes (editor, library, dashboard) |
-| Names | Chinese `乔木<词>`; English one short word; bundle id `ai.qiaomu.<slug>`; repo `joeseesun/qiaomu-<slug>` |
+| Names | Chinese `Nitor<词>`; English one short word; bundle id `ai.nitor.<slug>`; repo `TianMingAI/nitor-<slug>` |
 | Global hotkey | menubar: ⌥Space, but check it doesn't clash with something the user runs; recordable in settings |
 | Min macOS | 13 (SMAppService, Settings APIs). Raise it only for a real API need |
 | Storage | UserDefaults for prefs; files the user owns (Markdown/JSON in a folder they pick) for content |
@@ -19,7 +19,7 @@ Ask at most one question, and only if a wrong guess means rebuilding (for exampl
 
 ## 1. Scaffold
 
-Run `scripts/new_app.py` (see SKILL.md). Then `./scripts/sparkle-key.sh && ./build.sh && build/X.app/Contents/MacOS/X --selftest`. If it fails, fix the template in this skill too, not only the project.
+Run `scripts/new_app.py` (see SKILL.md). Then `./scripts/sparkle-key.sh && ./build.sh && build/X.app/Contents/MacOS/X --selftest`. If it fails, fix the app project; propose any reusable template correction, and change the installed skill only when explicitly requested.
 
 ## 2. Core feature
 
@@ -46,15 +46,15 @@ permissions.md. Only request what a feature needs, at the moment it needs it, af
 
 ## 7. Dogfood
 
-`./install-local.sh` after each build the user should try. Tell them what changed and what to try.
+When authorized to install/replace the app, run `./install-local.sh` after a build the user should try. Tell them what changed and what to try.
 
 ## 8. GitHub (private first)
 
-github.md. Create the repo **private**. Write the README as a product page with real screenshots. Then ask: "要公开吗？" Only after yes: make it public, set the social preview, About and topics.
+github.md. If repository creation is authorized, create it **private**. Write the README as a product page with real screenshots. If public visibility was not already authorized, ask: "要公开吗？" With authorization: make it public, set the social preview, About and topics.
 
 ## 9. Release
 
-release.md + auto-update.md. `./release.sh` does universal build → sign → notarize → staple → DMG → sign_update → appcast. Upload the DMG and `appcast.xml` to the GitHub Release (`gh release create vX.Y.Z dist/*.dmg dist/appcast.xml`). Verify from the public URL.
+Only when release is authorized: release.md + auto-update.md. `./release.sh` does universal build → sign → notarize → staple → DMG → sign_update → appcast. Upload the DMG and `appcast.xml` to the GitHub Release (`gh release create vX.Y.Z dist/*.dmg dist/appcast.xml`). Verify from the public URL.
 
 ## Handoff (final message, Chinese)
 
