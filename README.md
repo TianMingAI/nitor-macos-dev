@@ -2,7 +2,7 @@
 
 给 Codex 使用的原生 Mac App 开发 Skill：从菜单栏工具或普通窗口工程开始，完成核心功能、原生交互、设置与关于、自动更新及按需签名公证打包。
 
-由 Nitor 使用和维护，GitHub 归属 [TianMingAI](https://github.com/TianMingAI)。仓库地址保持为 `TianMingAI/qiaomu-macos-dev`，Skill 的安装目录和调用名为 `nitor-macos-dev`。
+由 Nitor 使用和维护，GitHub 归属 [TianMingAI](https://github.com/TianMingAI)。仓库地址为 [TianMingAI/nitor-macos-dev](https://github.com/TianMingAI/nitor-macos-dev)，与 Skill 的安装目录和调用名 `nitor-macos-dev` 一致。
 
 ## 能做什么
 
@@ -29,7 +29,7 @@
 也支持按原生 macOS 开发需求自动匹配，入口和 UI 元数据分别是 `SKILL.md` 与 `agents/openai.yaml`。安装时使用本仓库，不要安装上游原版。可对 Codex 说：
 
 ```text
-从 https://github.com/TianMingAI/qiaomu-macos-dev 安装 Skill，安装名称为 nitor-macos-dev。
+从 https://github.com/TianMingAI/nitor-macos-dev 安装 Skill，安装名称为 nitor-macos-dev。
 ```
 
 ## 固定设计方向

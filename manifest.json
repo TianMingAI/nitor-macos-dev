@@ -1,13 +1,13 @@
 {
   "name": "nitor-macos-dev",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "owner": "Nitor",
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "status": "active",
   "maturity_tier": "governed",
   "context_budget_tier": "production",
   "license": "MIT",
-  "repository": "TianMingAI/qiaomu-macos-dev",
+  "repository": "TianMingAI/nitor-macos-dev",
   "release_gates": [
     "package",
     "trigger",
